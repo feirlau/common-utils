@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="1">
+  <includeClasses>
+    <classEntry path="org.feirlau.core.FLUtils"/>
+    <classEntry path="org.feirlau.core.SystemInitial"/>
+    <classEntry path="org.feirlau.loader.DataLoader"/>
+    <classEntry path="org.feirlau.loader.DefaultLoader"/>
+    <classEntry path="org.feirlau.loader.ILoader"/>
+    <classEntry path="org.feirlau.loader.LibraryLoader"/>
+    <classEntry path="org.feirlau.loader.LocalLoader"/>
+    <classEntry path="org.feirlau.loader.Resource"/>
+    <classEntry path="org.feirlau.loader.ResourcesManager"/>
+    <classEntry path="org.feirlau.loader.StyleLoader"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>

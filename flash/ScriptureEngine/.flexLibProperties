@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="false" useMultiPlatformConfig="false" version="1">
+  <includeClasses>
+    <classEntry path="com.feirlau.global.EventManager"/>
+    <classEntry path="com.feirlau.global.ModelLocator"/>
+    <classEntry path="com.feirlau.global.GlobalEvent"/>
+    <classEntry path="com.feirlau.global.GlobalUtils"/>
+    <classEntry path="com.feirlau.map.tilemap.TileMapItem"/>
+    <classEntry path="com.feirlau.map.tilemap.TileMap"/>
+    <classEntry path="com.feirlau.global.GlobalConstants"/>
+    <classEntry path="com.feirlau.layer.ILayer"/>
+    <classEntry path="com.feirlau.layer.GameSceneLayer"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" height="40" backgroundColor="#FBFBFB" color="#969696">
+	<mx:Label id="footerText" text="{resourceManager.getString('fmf_home','footer')}" horizontalCenter="0" verticalCenter="-1" color="#858585"/>
+</mx:Canvas>

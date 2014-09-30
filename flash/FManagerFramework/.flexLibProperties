@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="false" useMultiPlatformConfig="false" version="1">
+  <includeClasses>
+    <classEntry path="Content"/>
+    <classEntry path="Footer"/>
+    <classEntry path="Header"/>
+    <classEntry path="Login"/>
+    <classEntry path="ManagerApp"/>
+    <classEntry path="Register"/>
+    <classEntry path="content.IContent"/>
+    <classEntry path="events.UpdateViewEvent"/>
+    <classEntry path="utils.ApplicationInfo"/>
+    <classEntry path="utils.CommonUtils"/>
+    <classEntry path="utils.CursorUtil"/>
+    <classEntry path="utils.HTTPServiceUtil"/>
+    <classEntry path="utils.Manager"/>
+    <classEntry path="utils.ModelLocator"/>
+    <classEntry path="utils.NameInput"/>
+    <classEntry path="utils.NameValidator"/>
+    <classEntry path="utils.PasswordValidator"/>
+    <classEntry path="utils.ResizeManager"/>
+    <classEntry path="utils.SearchManager"/>
+    <classEntry path="utils.TreeFilter"/>
+    <classEntry path="utils.Viewer"/>
+    <classEntry path="utils.WaitCanvas"/>
+    <classEntry path="utils.WaitingManager"/>
+  </includeClasses>
+  <includeResources>
+    <resourceEntry destPath="conf/imgs/logo.png" sourcePath="conf/imgs/logo.png"/>
+    <resourceEntry destPath="conf/imgs/horizontalSize.gif" sourcePath="conf/imgs/horizontalSize.gif"/>
+    <resourceEntry destPath="conf/imgs/leftObliqueSize.gif" sourcePath="conf/imgs/leftObliqueSize.gif"/>
+    <resourceEntry destPath="conf/styles/fmf.css" sourcePath="conf/styles/fmf.css"/>
+    <resourceEntry destPath="conf/imgs/user2.png" sourcePath="conf/imgs/user2.png"/>
+    <resourceEntry destPath="conf/imgs/delete.png" sourcePath="conf/imgs/delete.png"/>
+    <resourceEntry destPath="conf/imgs/group.png" sourcePath="conf/imgs/group.png"/>
+    <resourceEntry destPath="conf/imgs/Search.png" sourcePath="conf/imgs/Search.png"/>
+    <resourceEntry destPath="conf/imgs/Right.png" sourcePath="conf/imgs/Right.png"/>
+    <resourceEntry destPath="conf/imgs/group2.png" sourcePath="conf/imgs/group2.png"/>
+    <resourceEntry destPath="conf/imgs/footer.png" sourcePath="conf/imgs/footer.png"/>
+    <resourceEntry destPath="conf/imgs/user.png" sourcePath="conf/imgs/user.png"/>
+    <resourceEntry destPath="conf/imgs/black.png" sourcePath="conf/imgs/black.png"/>
+    <resourceEntry destPath="conf/assets/waiting.swf" sourcePath="conf/assets/waiting.swf"/>
+    <resourceEntry destPath="conf/imgs/verticalSize.gif" sourcePath="conf/imgs/verticalSize.gif"/>
+    <resourceEntry destPath="conf/imgs/rightObliqueSize.gif" sourcePath="conf/imgs/rightObliqueSize.gif"/>
+    <resourceEntry destPath="conf/imgs/toolbar.jpg" sourcePath="conf/imgs/toolbar.jpg"/>
+    <resourceEntry destPath="conf/imgs/mouseMove.gif" sourcePath="conf/imgs/mouseMove.gif"/>
+    <resourceEntry destPath="conf/imgs/Left.png" sourcePath="conf/imgs/Left.png"/>
+    <resourceEntry destPath="conf/imgs/add.png" sourcePath="conf/imgs/add.png"/>
+    <resourceEntry destPath="conf/locale/zh_CN/validators.properties" sourcePath="conf/locale/zh_CN/validators.properties"/>
+  </includeResources>
+  <namespaceManifests/>
+</flexLibProperties>

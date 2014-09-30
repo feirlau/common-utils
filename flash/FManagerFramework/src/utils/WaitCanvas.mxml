@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" width="400" height="300" backgroundAlpha="0.0" fontSize="12">
+	<mx:Script>
+		<![CDATA[
+		    [Bindable]
+			[Embed(source="/conf/assets/waiting.swf")]
+			public var waitingIcon:Class;
+			
+			[Bindable]
+			public var description:String="";
+		]]>
+	</mx:Script>
+	<mx:SWFLoader horizontalCenter="0" verticalCenter="-20" source="{waitingIcon}" width="32" height="32"/>
+	<mx:Label text="{description}" horizontalCenter="0" verticalCenter="10"/>
+</mx:Canvas>

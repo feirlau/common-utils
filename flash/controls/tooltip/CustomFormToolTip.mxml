@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2010-2011 Vitria Technology, Inc.  All rights reserved. -->
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:controls="controls.tooltip.*" implements="mx.core.IToolTip">
+    <mx:Form id="tipForm" styleName="formToolTipForm"/>
+    <mx:Script>
+        <![CDATA[
+            import mx.events.FlexEvent;
+            import mx.controls.Text;
+            import mx.logging.Log;
+            import mx.logging.ILogger;
+            
+            private static const logger_:ILogger = Log.getLogger("CustomFormToolTip");
+            // Implement required methods of the IToolTip interface.
+            private var text_:String;
+            [Bindable]
+            public function get text():String {
+                return text_;
+            }
+            /**
+            * the tooltip text can be an xml string, just like:
+            *   <root><item label="label1" text="value1"/><item label="label2" text="value2"/></root>
+            **/
+            public function set text(value:String):void {
+                text_ = value;
+                try {
+                    tipData = new XML(value);
+                } catch(err:Error) {
+                    tipData = new XML();
+                    logger_.error(err.getStackTrace());
+                }
+            }
+            
+            private var tipData_:XML;
+            [Bindable]
+            public function get tipData():XML {
+                return tipData_;
+            }
+            /**
+            * the tipData should be an xml, just like:
+            *   <root><item label="label1" text="value1"/><item label="label2" text="value2"/></root>
+            **/
+            public function set tipData(value:XML):void {
+                tipData_ = value;
+                if(initialized) {
+                    updateViewer();
+                } else {
+                    addEventListener(FlexEvent.CREATION_COMPLETE, completeHandler);
+                }
+            }
+            
+            private function completeHandler(event:FlexEvent):void {
+                removeEventListener(FlexEvent.CREATION_COMPLETE, completeHandler);
+                updateViewer();
+            }
+            private function updateViewer():void {
+                var tmpChildren:Array = tipForm.getChildren();
+                var i:int = 0;
+                for each(var tmpChild:CustomFormItem in tmpChildren) {
+                    try {
+                        if(tipData && tipData.item.length()>i) {
+                            var tmpItem:XML = tipData.item[i];
+                            tmpChild.label = tmpItem.@label.toString();
+                            if(tmpItem.labelStyle.toString()) {
+                                tmpChild.setStyle("labelStyleName", tmpItem.labelStyle.toString());
+                            }
+                            var tmpText:Text = tmpChild.getChildByName("formToolTipText") as Text;
+                            tmpText.text = unescape(tmpItem.@text.toString());
+                            if(tmpItem.textStyle.toString()) {
+                                tmpText.styleName = tmpItem.textStyle.toString();
+                            }
+                            tmpChild.visible = true;
+                            tmpChild.includeInLayout = true;
+                        } else {
+                            tmpChild.label = "";
+                            var tmpText:Text = tmpChild.getChildByName("formToolTipText") as Text;
+                            tmpText.text = "";
+                            tmpChild.visible = false;
+                            tmpChild.includeInLayout = false;
+                        }
+                    } catch(err:Error) {
+                        logger_.error(err.getStackTrace());
+                    }
+                    i = i + 1;
+                }
+            }
+            
+            private var itemNumber_:int = 0;
+            override protected function createChildren():void {
+                super.createChildren();
+                var i:int = itemNumber_;
+                while(i>0) {
+                    var tmpFormItem:CustomFormItem = new CustomFormItem();
+                    tmpFormItem.setStyle("labelStyleName", "formToolTipLabel");
+                    tipForm.addChild(tmpFormItem);
+                    var tmpText:Text = new Text();
+                    // Disable the toolTip of text in custom tooltip component, since it will cause the ToolTipManager show wrong.
+                    tmpText.toolTip = "";
+                    tmpText.name = "formToolTipText";
+                    tmpText.styleName = "formToolTipText";
+                    tmpText.maxWidth = 160;
+                    tmpFormItem.addChild(tmpText);
+                    i = i - 1;
+                }
+            }
+            
+            private static var instances_:Object = {};
+            /**
+            * Cache the instances with the same form items to imporve the performance.
+            * Other wise it will cost some times to create instance for each toolTip.
+            * Usage:
+            *   <mx:Button toolTipCreate="toolTipCreateHandler(event)"/>
+            *   private function toolTipCreateHandler(event:ToolTipEvent):void {
+            *       event.toolTip = CustomFormToolTip.getInstance(5);
+            *   }
+            * @param itemCount, the items of form tooltip.
+            * @return the tooltip instance with the special count of form items.
+            **/
+            public static function getInstance(itemCount:int = 0):CustomFormToolTip {
+                if(isNaN(itemCount)) {
+                    itemCount = 0;
+                }
+                var tmpInstance:CustomFormToolTip;
+                var tmpName:String = itemCount+"";
+                if(instances_.hasOwnProperty(tmpName)) {
+                    tmpInstance = instances_[tmpName] as CustomFormToolTip;
+                } else {
+                    tmpInstance = new CustomFormToolTip();
+                    tmpInstance.itemNumber_ = itemCount;
+                    instances_[tmpName] = tmpInstance;
+                }
+                return tmpInstance;
+            }
+        ]]>
+    </mx:Script>
+</mx:Canvas>

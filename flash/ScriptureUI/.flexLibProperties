@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="com.fl.style.StyleManager"/>
+    <classEntry path="com.fl.component.BaseComponent"/>
+    <classEntry path="com.fl.component.Text"/>
+    <classEntry path="com.fl.event.GlobalEvent"/>
+    <classEntry path="com.fl.utils.StringUtil"/>
+    <classEntry path="com.fl.component.ScrollBar"/>
+    <classEntry path="com.fl.component.Slider"/>
+    <classEntry path="com.fl.component.StatefulComponent"/>
+    <classEntry path="com.fl.constants.ScrollPolicyConstants"/>
+    <classEntry path="com.fl.component.ScrollBase"/>
+    <classEntry path="com.fl.utils.ComponentConfig"/>
+    <classEntry path="com.fl.component.Box"/>
+    <classEntry path="com.fl.component.ScrollTile"/>
+    <classEntry path="com.fl.utils.ClassFactory"/>
+    <classEntry path="com.fl.vo.ArrayList"/>
+    <classEntry path="com.fl.component.TileItemRenderer"/>
+    <classEntry path="com.fl.component.IComponentConfig"/>
+    <classEntry path="com.fl.component.UIGlobal"/>
+    <classEntry path="com.fl.drag.DragManager"/>
+    <classEntry path="com.fl.mouse.MouseController"/>
+    <classEntry path="com.fl.mouse.IMouseHandler"/>
+    <classEntry path="com.fl.keyboard.IKeyboardHandler"/>
+    <classEntry path="com.fl.mouse.MouseSequence"/>
+    <classEntry path="com.fl.keyboard.KeyboardController"/>
+    <classEntry path="com.fl.keyboard.KeySequence"/>
+    <classEntry path="com.fl.extension.PageTile"/>
+    <classEntry path="com.fl.component.ResizableComp"/>
+    <classEntry path="com.fl.component.TitleWindow"/>
+    <classEntry path="com.fl.component.LayoutCanvas"/>
+    <classEntry path="com.fl.component.ScrollSlider"/>
+    <classEntry path="com.fl.component.Canvas"/>
+    <classEntry path="com.fl.utils.FLConfigurator"/>
+    <classEntry path="com.fl.utils.FLMath"/>
+    <classEntry path="com.fl.extension.ImageText"/>
+    <classEntry path="com.fl.tooltip.HtmlTooltip"/>
+    <classEntry path="com.fl.tooltip.BaseTooltipSelector"/>
+    <classEntry path="com.fl.tooltip.BaseTooltipAdapter"/>
+    <classEntry path="com.fl.tooltip.ITooltip"/>
+    <classEntry path="com.fl.textflow.TextFlowArea"/>
+    <classEntry path="com.fl.extension.ButtonBar"/>
+    <classEntry path="com.fl.extension.BarItemRenderer"/>
+    <classEntry path="com.fl.component.Menu"/>
+    <classEntry path="com.fl.utils.TimeUtil"/>
+    <classEntry path="com.fl.utils.BitmapFontMgr"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>

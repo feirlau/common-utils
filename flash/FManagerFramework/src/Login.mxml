@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml" backgroundColor="#FFFFFF" verticalGap="3" xmlns:utils="utils.*">
+	<mx:HBox width="100%" height="28" verticalAlign="middle" horizontalAlign="right" >
+		<mx:Label text="{resourceManager.getString('fmf_home','loginName')}" width="140" textAlign="right" />
+		<mx:TextInput id="nameInput" width="100%" maxChars="64"/>
+	</mx:HBox>
+	<mx:HBox width="100%" height="28" verticalAlign="middle" horizontalAlign="right" >
+		<mx:Label text="{resourceManager.getString('fmf_home','loginPass')}" width="140" textAlign="right"/>
+		<mx:TextInput id="passInput" width="100%" displayAsPassword="true" maxChars="64" enter="login()"/>
+	</mx:HBox>
+
+	<mx:HBox width="100%" height="28" verticalAlign="middle">
+		<mx:LinkButton textDecoration="underline" label="{resourceManager.getString('fmf_home','registerConfirm')}" click="register()"/>
+		<mx:Spacer width="100%"/>
+		<mx:Button label="{resourceManager.getString('fmf_home','loginConfirm')}" click="login()"/>
+	</mx:HBox>
+	
+	<mx:Array id="v">
+	    <utils:NameValidator id='nameInputV' enabled="{ApplicationInfo.loginInfo.login==false}" source="{nameInput}" property="text"/>
+		<utils:PasswordValidator id="passInputV" enabled="{ApplicationInfo.loginInfo.login==false}" source="{passInput}" property="text"/>
+	</mx:Array>
+	
+	<mx:Script>
+		<![CDATA[
+			import utils.HTTPServiceUtil;
+			import events.UpdateViewEvent;
+			import mx.formatters.DateBase;
+			import utils.ApplicationInfo;
+			import mx.managers.PopUpManager;
+			import mx.rpc.events.FaultEvent;
+			import mx.rpc.events.ResultEvent;
+			import mx.controls.Alert;
+			import mx.validators.Validator;
+			import mx.core.Application;
+			import mx.formatters.DateFormatter;
+			
+			public var loginHandler:Function = null;
+			public var loginFailed:Function = null;
+			
+			private function login():void {
+				if(validate()) {
+					var parameters:URLVariables = new URLVariables();
+					parameters.username = nameInput.text;
+					parameters.password = passInput.text;
+					HTTPServiceUtil.requestXMLForPost("/login/",parameters,success,fault);
+				}
+			}
+			
+			private function validate():Boolean {
+				return Validator.validateAll(v).length==0 ;
+			}
+			
+			private function success(event:ResultEvent):void {
+				if(event.result.@resultCode.toString()=="1") {
+				    ApplicationInfo.loginInfo.username = nameInput.text;
+                    ApplicationInfo.loginInfo.password = passInput.text;
+					ApplicationInfo.loginInfo.login = true;
+					passInput.text = "";
+					ApplicationInfo.loginInfo.sessionid = event.result.sessionid;
+					ApplicationInfo.loginInfo.userid = event.result.userid;
+					Application.application.header.hasLogin = true;
+					ApplicationInfo.loginInfo.usertype = event.result.usertype;
+                    Application.application.model = event.result.usertype;
+                    if(null!=loginHandler) {
+                        loginHandler(event);
+                    }
+                    Application.application.contentView.selectedChild = Application.application.contentPanel;
+				}else {
+					Alert.show(ApplicationInfo.getInfoString("wrongUserOrPass"),ApplicationInfo.getInfoString("fault"));
+					if(null!=loginFailed) {
+					    loginFailed(event);
+					}
+				}
+			}
+			
+			private function fault(event:FaultEvent):void {
+				Alert.show(ApplicationInfo.getInfoString("wrongUserOrPass"),ApplicationInfo.getInfoString("fault"));
+				if(null!=loginFailed) {
+                    loginFailed(event);
+                }
+			}
+			
+			private function register():void {
+			    Register.showRegister();
+			}
+		]]>
+	</mx:Script>
+</mx:VBox>

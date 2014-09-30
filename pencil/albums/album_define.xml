@@ -1,0 +1,36 @@
+<album>
+    <properties>
+        <id>id1</id>
+        <name>album1</name>
+        <width>100</width>
+        <height>100</height>
+        <autodeny>-1</autodeny>
+        <type>1</type>
+    </properties>
+    <contents>
+        <controls>
+            <control id="control1"/>
+            <control id="control2"/>
+        </controls>
+        <animates>
+            <animate id="animate1"/>
+            <animate id="animate2"/>
+        </animates>
+        <page name="page1">
+            <image x="0" y="0" z="0" width="50" height="50" alpha="0" source="image1.png" link="">
+                <controls>
+                    <control id="control1"/>
+                    <control id="control2"/>
+                </controls>
+                <animates>
+                    <animate id="animate1"/>
+                    <animate id="animate2"/>
+                </animates>
+            </image>
+            <image x="50" y="50" z="1" width="50" height="50" alpha="1" link="link1" source="image2.png"/>
+            <text x="50" y="0" z="2" width="40" height="30" alpha="1" link="link2" value="image1 description"/>
+        </page>
+        <effect name="effect1"></effect>
+        <page name="page2"></page>
+    </contents>
+</album>

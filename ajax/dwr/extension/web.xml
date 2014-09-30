@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC
+    "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app id="dwr">
+
+  <display-name>DWR (Direct Web Remoting)</display-name>
+  <description>A Simple Demo DWR</description>
+
+  <servlet>
+    <servlet-name>dwr-invoker</servlet-name>
+    <display-name>DWR Servlet</display-name>
+    <description>Direct Web Remoter Servlet</description>
+    <servlet-class>org.directwebremoting.servlet.DwrServlet</servlet-class>
+
+    <!-- This should NEVER be present in live -->
+    <init-param>
+      <param-name>debug</param-name>
+      <param-value>true</param-value>
+    </init-param>
+    
+    <init-param>
+     <param-name>jsonpEnabled</param-name>
+     <param-value>true</param-value>
+    </init-param>
+    
+    <!-- Remove this unless you want to use active reverse ajax -->
+    <init-param>
+      <param-name>activeReverseAjaxEnabled</param-name>
+      <param-value>true</param-value>
+    </init-param>
+
+    <!-- By default DWR creates application scope objects when they are first
+    used. This creates them when the app-server is started -->
+    <init-param>
+      <param-name>initApplicationScopeCreatorsAtStartup</param-name>
+      <param-value>true</param-value>
+    </init-param>
+
+    <!-- This enables full streaming mode. If set to -1, it will using full streaming model totally. 
+    If it is set to <500, client will restart a new connection without wait after write which is the same with set to 0. 
+    It's probably better to leave this out if you are running across the internet. -->
+    <init-param>
+      <param-name>maxWaitAfterWrite</param-name>
+      <param-value>5000</param-value>
+    </init-param>
+    
+    <!-- Set the server load monitor to PollingServerLoadMonitor to enable the polling streaming mode,
+    and the default is org.directwebremoting.impl.DefaultServerLoadMonitor -->
+    <!--
+    <init-param>
+      <param-name>org.directwebremoting.extend.ServerLoadMonitor</param-name>
+      <param-value>org.directwebremoting.impl.PollingServerLoadMonitor</param-value>
+    </init-param>
+    -->
+    
+    <!-- This enables polling streaming mode, set the wait time before next polling. For polling model only.
+    For "Early Closing Mode", it will compute the disconnectedTime dynamically according the server load-->
+    <init-param>
+      <param-name>disconnectedTime</param-name>
+      <param-value>5000</param-value>
+    </init-param>
+    
+    <!-- Config the url handlers -->
+    <init-param>
+      <param-name>url:/json/</param-name>
+      <param-value>org.directwebremoting.jsonp.JsonpCallHandler</param-value>
+    </init-param>
+    <init-param>
+      <param-name>url:/xml/</param-name>
+      <param-value>org.feirlau.dwr.handler.XmlCallHandler</param-value>
+    </init-param>
+    <init-param>
+      <param-name>url:/call/plainpoll/</param-name>
+      <param-value>org.feirlau.dwr.reverse.TopicPollHandler</param-value>
+    </init-param>
+    
+    <!--
+    For more information on these parameters, see:
+    - http://getahead.org/dwr/server/servlet
+    - http://getahead.org/dwr/reverse-ajax/configuration
+    -->
+    
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>dwr-invoker</servlet-name>
+    <url-pattern>/dwr/*</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

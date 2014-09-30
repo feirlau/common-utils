@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>jszip example 1</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+    </style>
+    <script src="common/rawdeflate.min.js"></script>
+    <script src="common/rawinflate.min.js"></script>
+    <script src="common/zlib.min.js"></script>
+    <script src="common/zip.min.js"></script>
+    <script src="common/unzip.min.js"></script>
+</head>
+
+<body>
+    <script>
+        function readfile(f) {
+            var reader = new FileReader(); // Create a FileReader object
+            reader.onload = function () { // Define an event handler
+                var int8View = new Int8Array(reader.result);
+                var zip = new Zlib.RawInflate(int8View);
+                editor.innerHTML = zip.decompress();
+            }
+            reader.onerror = function (e) { // If anything goes wrong
+                console.log("Error", e); // Just log it
+            };
+            reader.readAsArrayBuffer(f); // Read the file
+        }
+    </script>
+    <input type="file" onchange="readfile(this.files[0])"></input>
+    <div id="editor" contenteditable="true"></div>
+</body>
+
+</html>

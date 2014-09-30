@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns1:ManagerApp xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" xmlns:ns1="*"
+    creationComplete="completeHandler()">
+    <mx:Script>
+        <![CDATA[
+            import mx.rpc.events.FaultEvent;
+            import mx.rpc.events.ResultEvent;
+            private function completeHandler():void {
+                login.loginHandler = loginHandler;
+                header.logoutHandler = logoutHandler;
+                header.logoutFailed = logoutFailed;
+            }
+            
+            private function loginHandler(event:ResultEvent):void {
+                content.contents = contents;
+            }
+            
+            private function logoutHandler(event:ResultEvent):void {
+                content.contents = [];
+            }
+            private function logoutFailed(event:FaultEvent):void {
+                content.contents = [];
+            }
+        ]]>
+    </mx:Script>
+    <mx:Array id="contents">
+        
+    </mx:Array>
+</ns1:ManagerApp>

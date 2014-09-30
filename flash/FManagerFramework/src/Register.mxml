@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:utils="utils.*"
+    backgroundAlpha="0.6" borderStyle="solid" borderThickness="1" cornerRadius="6" backgroundColor="#FFFFFF">
+    <mx:VBox paddingTop="10" paddingBottom="10" paddingLeft="10" paddingRight="10">
+        <mx:Form width="380" paddingLeft="0" paddingRight="0" paddingBottom="0" paddingTop="0">
+            <mx:FormHeading label="{resourceManager.getString('fmf_home', 'registerDescription')}" textAlign="left"/>
+            <mx:FormItem label="{resourceManager.getString('fmf_home', 'registerName')}" width="100%">
+                <mx:TextInput id="nameInput" maxChars="64" width="100%"/>
+            </mx:FormItem>
+            <mx:FormItem label="{resourceManager.getString('fmf_home', 'registerEmail')}" width="100%">
+                <mx:TextInput id="emailInput" maxChars="128" width="100%"/>
+            </mx:FormItem>
+            <mx:FormItem label="{resourceManager.getString('fmf_home', 'registerPass1')}" width="100%">
+                <mx:TextInput id="passInput1" maxChars="64" displayAsPassword="true" width="100%"/>
+            </mx:FormItem>
+            <mx:FormItem label="{resourceManager.getString('fmf_home', 'registerPass2')}" width="100%">
+                <mx:TextInput id="passInput2" maxChars="64" displayAsPassword="true" width="100%"/>
+            </mx:FormItem>
+        </mx:Form>
+        <mx:HBox horizontalAlign="right" width="100%">
+            <mx:Button label="{resourceManager.getString('fmf_home', 'okLabel')}" width="100" click="onRegister()"/>
+            <mx:Button label="{resourceManager.getString('fmf_home', 'cancelLabel')}" width="100" click="onCancel()"/>
+        </mx:HBox>
+    </mx:VBox>
+    <mx:Array id="v">
+        <utils:NameValidator id='nameInputV' source="{nameInput}" property="text"/>
+        <mx:EmailValidator id="emailInputV" source="{emailInput}" property="text"/>
+        <utils:PasswordValidator id="passInputV1" source="{passInput1}" property="text"/>
+        <utils:PasswordValidator id="passInputV2" source="{passInput2}" property="text"/>
+    </mx:Array>
+    <mx:Script>
+        <![CDATA[
+            import utils.HTTPServiceUtil;
+            import utils.ApplicationInfo;
+            import mx.rpc.events.FaultEvent;
+            import mx.controls.Alert;
+            import mx.rpc.events.ResultEvent;
+            import mx.validators.Validator;
+            import mx.core.Application;
+            import mx.managers.PopUpManager;
+            public var onCancel_:Function;
+            public var onSuccess_:Function;
+            public var onFail_:Function;
+            
+            private function onRegister():void {
+                doRegister();
+            }
+            private function doRegister():void {
+                if(validate()) {
+                    var parameters:URLVariables = new URLVariables();
+                    parameters.username = nameInput.text ;
+                    parameters.email = emailInput.text ;
+                    parameters.password = passInput1.text ;
+                    HTTPServiceUtil.requestXMLForPost("/register/", parameters, success, fault);
+                }
+            }
+            
+            private function success(event:ResultEvent):void {
+                var tmpResult:XML = event.result as XML;
+                var tmpResultCode:String = tmpResult.@resultCode.toString();
+                if(tmpResultCode == '-1') {
+                    Alert.show(ApplicationInfo.getInfoString('registerFail'), ApplicationInfo.getInfoString('fault'), Alert.OK);
+                    return;
+                }
+                if(tmpResultCode == '1') {
+                    if(onSuccess_ != null) {
+                        onSuccess_(tmpResult);
+                    }
+                    destory();
+                }
+                Alert.show(ApplicationInfo.getInfoString('registerResult'+tmpResultCode), ApplicationInfo.getInfoString('result'), Alert.OK);
+            }
+            private function fault(event:FaultEvent):void {
+                if(onFail_ != null) {
+                    onFail_(event);
+                }
+                destory();
+                Alert.show(ApplicationInfo.getInfoString('registerFail'), ApplicationInfo.getInfoString('fault'), Alert.OK);
+            }
+            
+            private function validate():Boolean {
+                var tmpResult:Boolean = Validator.validateAll(v).length==0 ;
+                if(tmpResult && passInput1.text != passInput2.text) {
+                    passInput2.errorString = ApplicationInfo.getInfoString('passwordMismatch');
+                    tmpResult = false;
+                }
+                return tmpResult;
+            }
+            
+            private function onCancel():void {
+                if(onCancel_ != null) {
+                    onCancel_();
+                }
+                hideRegister();
+            }
+            
+            public static function showRegister():Register {
+                var tmpWin:Register = PopUpManager.createPopUp(Application.application as DisplayObject, Register, true) as Register;
+                PopUpManager.centerPopUp(tmpWin);
+                return tmpWin;
+            }
+            public function hideRegister():void {
+                if(isPopUp) {
+                    PopUpManager.removePopUp(this);
+                }
+            }
+            
+            public function destory():void {
+                hideRegister();
+                onCancel_ = null;
+                onSuccess_ = null;
+                onFail_ = null;
+            }
+        ]]>
+    </mx:Script>
+</mx:Canvas>

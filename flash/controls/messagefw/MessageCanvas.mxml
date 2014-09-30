@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:filters="flash.filters.*" width="200" height="100" styleName="messageCanvas"
+    creationComplete="completeHandler();" mouseOver="stopHide();" mouseOut="startHide();">
+    <mx:Canvas x="6" y="6" width="194" height="94" styleName="messageCanvasContent" borderThickness="{isMouseOver?1:0}">
+        <mx:Image id="messageIcon" source="{messageIconSrc}" x="10" y="7" width="13" height="13"/>
+        <mx:Text id="message" creationComplete="updateMessageTooltip();" text="{messageText}" toolTip="{messageToolTip_}" x="24" y="4" width="166" height="70" styleName="{messageTypeStyle}"/>
+        <mx:Label text="{messageTime}" x="24" y="74" width="166" height="18" truncateToFit="true" styleName="messageCanvasTime"/>
+        <mx:filters>
+            <filters:DropShadowFilter distance="5" angle="45"/>
+        </mx:filters>
+    </mx:Canvas>
+    <mx:Image source="{closeIcon}" click="closeMessage();" visible="{isMouseOver}" width="18" height="18" x="0" y="0" buttonMode="true" useHandCursor="true"/>
+    <mx:Script>
+        <![CDATA[
+            import mx.core.IUITextField;
+            import mx.core.Application;
+            import mx.managers.PopUpManager;
+            
+            [Bindable]
+            public var messageTime:String;
+            [Bindable]
+            private var closeIcon:Object;
+            [Bindable]
+            private var messageTypeStyle:String;
+            [Bindable]
+            private var isMouseOver:Boolean = false;
+            [Bindable]
+            private var messageIconSrc:Object;
+            
+            private var messageType_:String;
+            [Bindable]
+            public function set messageType(type:String):void {
+                messageType_ = type;
+                if(type == "warn") {
+                    messageTypeStyle = "messageCanvasWarn";
+                } else if(type == "error") {
+                    messageTypeStyle = "messageCanvasError";
+                } else {
+                    messageTypeStyle = "messageCanvasInfo";
+                }
+                var css:CSSStyleDeclaration = StyleManager.getStyleDeclaration("."+messageTypeStyle);
+                if(css) {
+                    messageIconSrc = css.getStyle("messageIcon");
+                } else {
+                    messageIconSrc = null;
+                }
+            }
+            public function get messageType():String {
+                return messageType_;
+            }
+            
+            [Bindable]
+            private var messageToolTip_:String;
+            private var messageText_:String;
+            [Bindable]
+            public function set messageText(messageS:String):void {
+                messageText_ = messageS;
+                updateMessageTooltip();
+            }
+            public function get messageText():String {
+                return messageText_;
+            }
+            
+            private var autoHide_:Boolean = true;
+            [Bindable]
+            public function set autoHide(v:Boolean):void {
+                autoHide_ = v;
+                if(!autoHide_) {
+                    stopHide();
+                } else if(isPopUp) {
+                    startHide();
+                }
+            }
+            public function get autoHide():Boolean {
+                return autoHide_;
+            }
+            
+            private var timer_:Timer;
+            public function startHide():void {
+                if(timer_ == null) {
+                    timer_ = new Timer(5000, 1);
+                    timer_.addEventListener(TimerEvent.TIMER_COMPLETE, timerHandler);
+                }
+                if(!timer_.running) {
+                    timer_.start();
+                }
+                isMouseOver = false;
+            }
+            public function stopHide():void {
+                if(timer_) {
+                    timer_.stop();
+                }
+                isMouseOver = true;
+            }
+            
+            private function timerHandler(event:TimerEvent):void {
+                if(timer_) {
+                    timer_.removeEventListener(TimerEvent.TIMER_COMPLETE, timerHandler);
+                    timer_ = null;
+                }
+                closeMessage();
+            }
+            
+            private function updateMessageTooltip():void {
+                messageToolTip_ = "";
+                if(message && message.mx_internal::getTextField()) {
+                    var tmpTextField:IUITextField = message.mx_internal::getTextField();
+                    if(message.height < tmpTextField.textHeight) {
+                        messageToolTip_ = messageText_;
+                    }
+                }
+            }
+            
+            private function completeHandler():void {
+                closeIcon = getStyle("closeIcon");
+            }
+            
+            public var onClose:Function;
+            public function closeMessage():void {
+                if(timer_) {
+                    if(timer_.running) {
+                        timer_.stop();
+                    }
+                    timer_ = null;
+                }
+                if(isPopUp) {
+                    PopUpManager.removePopUp(this);
+                }
+                if(onClose != null) {
+                    onClose(this);
+                }
+            }
+            
+            public function showMessage(position:Point, par:DisplayObject):void {
+                if(position) {
+                    x = position.x;
+                    y = position.y;
+                }
+                if(!isPopUp) {
+                    if(!par){
+                        par = Sprite(Application.application);
+                    }
+                    PopUpManager.addPopUp(this, par);
+                    if(autoHide) {
+                        startHide();
+                    }
+                }
+            }
+        ]]>
+    </mx:Script>
+</mx:Canvas>

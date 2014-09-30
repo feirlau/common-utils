@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:TitleWindow xmlns:mx="http://www.adobe.com/2006/mxml" width="500" showCloseButton="true" close="addCancel()">
+	<mx:VBox width="100%" verticalGap="0" horizontalAlign="center">
+        <mx:HBox width="80%" height="28" verticalAlign="middle" horizontalAlign="left">
+            <mx:Label text="{resourceManager.getString('fmf_home','nameLabel')}" width="120" textAlign="right" paddingBottom="5" paddingTop="5"/>
+            <mx:TextInput id="nameInput" width="100%" maxChars="64"/>
+        </mx:HBox>
+        <mx:HBox width="80%" height="28" verticalAlign="middle" horizontalAlign="center">
+            <mx:Spacer width="100%"/>
+            <mx:Button width="80" click="addCommit()"  enabled="{nameInput.text!=''}">
+                <mx:label>{resourceManager.getString('fmf_home','okLabel')}</mx:label>
+            </mx:Button>
+            <mx:Button width="80" click="addCancel()">
+                <mx:label>{resourceManager.getString('fmf_home','cancelLabel')}</mx:label>
+            </mx:Button>
+        </mx:HBox>
+    </mx:VBox>
+    <mx:Array id="validators">
+    </mx:Array>
+    <mx:Script>
+        <![CDATA[
+        	import mx.validators.Validator;
+            import utils.ApplicationInfo;
+            import mx.controls.Alert;
+            import mx.rpc.events.ResultEvent;
+            import mx.managers.PopUpManager;
+            
+            public var onCancel:Function;
+            public var onCommit:Function;
+            
+            private function addCommit():void {
+            	if(validate()) {
+	                if(onCommit!=null) {
+	                	onCommit(nameInput.text);
+	                }
+	                closeWin();
+	            }
+            }
+            private function addCancel():void {
+                closeWin();
+                if(onCancel!=null) {
+                	onCancel();
+                }
+            }
+            private function closeWin():void {
+                PopUpManager.removePopUp(this) ;
+            }
+            
+            private function validate():Boolean {
+                var tmpResult:Boolean = true;
+                if(Validator.validateAll(validators).length>0) {
+                    tmpResult = false;
+                }
+                return tmpResult;
+            }
+        ]]>
+    </mx:Script>
+</mx:TitleWindow>

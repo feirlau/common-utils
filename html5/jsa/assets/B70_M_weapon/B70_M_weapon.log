@@ -1,0 +1,1225 @@
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00000.png
+0+237,0+150,20,136
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00001.png
+0+228,0+179,79,98
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00002.png
+0+246,0+150,54,136
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00003.png
+0+247,0+150,55,137
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00004.png
+0+243,0+151,62,133
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00005.png
+0+239,0+152,69,129
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00006.png
+0+244,0+150,60,135
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00007.png
+0+226,0+182,86,80
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\45\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00000.png
+0+262,0+153,27,105
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00001.png
+0+252,0+184,66,102
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00002.png
+0+265,0+154,24,142
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00003.png
+0+265,0+155,27,142
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00004.png
+0+259,0+153,34,143
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00005.png
+0+254,0+153,43,142
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00006.png
+0+261,0+154,31,142
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00007.png
+0+262,0+184,54,90
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\正侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00000.png
+0+206,0+160,40,134
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00001.png
+0+184,0+193,136,63
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00002.png
+0+218,0+156,62,119
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00003.png
+0+217,0+156,75,119
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00004.png
+0+217,0+158,75,113
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00005.png
+0+218,0+161,74,106
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00006.png
+0+217,0+157,75,115
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00007.png
+0+176,0+201,141,40
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\正面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00000.png
+0+269,0+167,42,127
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00001.png
+0+212,0+205,131,73
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00002.png
+0+252,0+164,50,139
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00003.png
+0+245,0+164,59,139
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00004.png
+0+249,0+162,51,141
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00005.png
+0+252,0+160,46,142
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00006.png
+0+248,0+163,53,140
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00007.png
+0+220,0+207,130,64
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\背侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00000.png
+0+266,0+178,40,126
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00001.png
+0+192,0+231,136,41
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00002.png
+0+223,0+171,71,128
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00003.png
+0+220,0+172,74,124
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00004.png
+0+220,0+168,75,130
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00005.png
+0+220,0+166,75,132
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00006.png
+0+220,0+170,74,127
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00007.png
+0+195,0+233,141,43
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_1\背面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00000.png
+0+237,0+150,20,136
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00001.png
+0+260,0+161,20,143
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00002.png
+0+274,0+206,33,73
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00003.png
+0+184,0+154,56,103
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00004.png
+0+222,0+143,42,120
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00005.png
+0+226,0+133,47,134
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00006.png
+0+222,0+136,50,137
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00007.png
+0+211,0+186,42,127
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00008.png
+0+212,0+186,31,127
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00009.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00009.png
+0+195,0+166,43,134
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00009.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\45\00009.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00000.png
+0+262,0+153,27,105
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00001.png
+0+252,0+172,64,138
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00002.png
+0+218,0+220,116,58
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00003.png
+0+187,0+131,51,95
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00004.png
+0+208,0+133,41,120
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00005.png
+0+217,0+128,44,130
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00006.png
+0+206,0+132,57,127
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00007.png
+0+190,0+171,42,129
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00008.png
+0+190,0+171,41,129
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00009.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00009.png
+0+211,0+150,33,136
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00009.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正侧\00009.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00000.png
+0+206,0+160,40,134
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00001.png
+0+222,0+163,59,137
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00002.png
+0+221,0+208,109,53
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00003.png
+0+210,0+164,49,99
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00004.png
+0+240,0+140,40,128
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00005.png
+0+251,0+132,29,137
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00006.png
+0+254,0+134,30,141
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00007.png
+0+252,0+192,27,125
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00008.png
+0+252,0+192,22,125
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00009.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00009.png
+0+212,0+177,36,131
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00009.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\正面\00009.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00000.png
+0+269,0+167,42,127
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00001.png
+0+239,0+187,80,122
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00002.png
+0+182,0+240,143,47
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00003.png
+0+221,0+112,45,138
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00004.png
+0+218,0+119,28,87
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00005.png
+0+216,0+119,39,127
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00006.png
+0+214,0+124,45,119
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00007.png
+0+202,0+153,37,131
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00008.png
+0+202,0+153,37,131
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00009.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00009.png
+0+249,0+143,13,58
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00009.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背侧\00009.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00000.png
+0+266,0+178,40,126
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00001.png
+0+232,0+200,58,104
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00002.png
+0+182,0+214,109,78
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00003.png
+0+253,0+111,49,143
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00004.png
+0+232,0+111,40,131
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00005.png
+0+232,0+116,29,70
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00006.png
+0+228,0+120,30,67
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00007.png
+0+233,0+143,26,53
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00008.png
+0+242,0+143,18,54
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00009.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00009.png
+0+266,0+150,34,129
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00009.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_2\背面\00009.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00000.png
+0+237,0+150,20,136
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00001.png
+0+213,0+187,133,74
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00002.png
+0+204,0+213,144,22
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00003.png
+0+177,0+191,57,66
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00004.png
+0+183,0+181,45,87
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00005.png
+0+202,0+187,39,59
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\45\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00000.png
+0+262,0+153,27,105
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00001.png
+0+241,0+181,84,110
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00002.png
+0+226,0+205,111,57
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00003.png
+0+152,0+159,107,86
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00004.png
+0+166,0+153,70,89
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00005.png
+0+202,0+168,73,72
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\正侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00000.png
+0+206,0+160,40,134
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00001.png
+0+194,0+205,124,28
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00002.png
+0+200,0+184,112,66
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00003.png
+0+215,0+209,49,59
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00004.png
+0+213,0+199,51,83
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00005.png
+0+177,0+199,92,72
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\正面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00000.png
+0+269,0+167,42,127
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00001.png
+0+253,0+185,56,119
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00002.png
+0+261,0+205,33,75
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00003.png
+0+181,0+130,102,122
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00004.png
+0+190,0+128,87,126
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00005.png
+0+215,0+154,107,99
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\背侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00000.png
+0+266,0+178,40,126
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00001.png
+0+194,0+200,124,93
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00002.png
+0+200,0+213,112,60
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00003.png
+0+248,0+122,49,139
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00004.png
+0+248,0+123,51,141
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00005.png
+0+243,0+150,92,128
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\atk_n\背面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\45\00000.png
+0+237,0+151,20,135
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\45\00001.png
+0+212,0+156,38,130
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\45\00002.png
+0+226,0+140,43,140
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\45\00003.png
+0+232,0+143,32,139
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\正侧\00000.png
+0+262,0+153,27,105
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\正侧\00001.png
+0+246,0+153,27,131
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\正侧\00002.png
+0+272,0+153,48,51
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\正侧\00003.png
+0+269,0+153,42,101
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\正面\00000.png
+0+206,0+160,40,134
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\正面\00001.png
+0+197,0+168,49,128
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\正面\00002.png
+0+195,0+148,40,142
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\正面\00003.png
+0+202,0+152,37,140
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\背侧\00000.png
+0+269,0+167,42,127
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\背侧\00001.png
+0+263,0+161,40,131
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\背侧\00002.png
+0+276,0+175,60,110
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\背侧\00003.png
+0+276,0+173,51,117
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\背面\00000.png
+0+266,0+178,40,126
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\背面\00001.png
+0+267,0+173,48,131
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\背面\00002.png
+0+277,0+193,40,103
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\be_atk\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\be_atk\背面\00003.png
+0+273,0+187,37,114
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\be_atk\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\be_atk\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\45\00000.png
+0+237,0+151,20,135
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\45\00001.png
+0+232,0+143,63,97
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\45\00002.png
+0+217,0+131,85,130
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\45\00003.png
+0+181,0+151,103,94
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\45\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\45\00004.png
+0+149,0+277,54,50
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\45\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\45\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\45\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\45\00005.png
+0+130,0+262,97,75
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\45\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\45\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\45\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\45\00006.png
+0+130,0+262,97,75
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\45\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\45\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\45\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\45\00007.png
+0+130,0+262,97,75
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\45\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\45\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\45\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\45\00008.png
+0+130,0+262,97,75
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\45\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\45\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00000.png
+0+262,0+153,27,105
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00001.png
+0+257,0+144,83,121
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00002.png
+0+268,0+136,43,142
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00003.png
+0+232,0+161,62,67
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00004.png
+0+126,0+242,118,47
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00005.png
+0+119,0+249,142,43
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00006.png
+0+119,0+255,142,37
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00007.png
+0+119,0+255,142,37
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00008.png
+0+119,0+255,142,37
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\正侧\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00000.png
+0+206,0+160,40,134
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00001.png
+0+200,0+154,34,92
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00002.png
+0+181,0+150,64,79
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00003.png
+0+170,0+150,100,123
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00004.png
+0+177,0+302,83,42
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00005.png
+0+193,0+279,52,83
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00006.png
+0+192,0+279,53,83
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00007.png
+0+192,0+279,53,83
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00008.png
+0+192,0+279,53,83
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\正面\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00000.png
+0+269,0+167,42,127
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00001.png
+0+276,0+158,66,138
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00002.png
+0+278,0+155,63,140
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00003.png
+0+258,0+174,50,60
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00004.png
+0+166,0+209,135,79
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00005.png
+0+174,0+224,125,54
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00006.png
+0+174,0+224,125,54
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00007.png
+0+174,0+224,125,54
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00008.png
+0+174,0+224,125,54
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\背侧\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00000.png
+0+266,0+178,40,126
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00001.png
+0+278,0+174,34,144
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00002.png
+0+242,0+181,88,120
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00003.png
+0+242,0+182,100,78
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00004.png
+0+252,0+199,83,111
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00005.png
+0+269,0+220,47,77
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00006.png
+0+267,0+220,53,77
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00007.png
+0+267,0+220,53,75
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00008.png
+0+267,0+220,53,75
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\dead\背面\00008.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\45\00000.png
+0+184,0+192,63,73
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\45\00001.png
+0+183,0+199,57,47
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\45\00002.png
+0+183,0+202,94,54
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\45\00003.png
+0+184,0+200,100,55
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\45\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\45\00004.png
+0+185,0+203,102,54
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\45\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\45\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\45\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\45\00005.png
+0+184,0+208,100,49
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\45\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\45\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\45\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\45\00006.png
+0+183,0+204,91,51
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\45\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\45\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\45\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\45\00007.png
+0+183,0+196,64,56
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\45\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\45\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00000.png
+0+195,0+166,87,118
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00001.png
+0+193,0+173,99,110
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00002.png
+0+192,0+177,111,100
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00003.png
+0+192,0+181,120,91
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00004.png
+0+193,0+185,122,87
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00005.png
+0+193,0+184,119,91
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00006.png
+0+192,0+177,111,100
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00007.png
+0+193,0+170,99,110
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\正侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\正面\00000.png
+0+208,0+206,43,79
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\正面\00001.png
+0+208,0+213,42,66
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\正面\00002.png
+0+208,0+217,43,50
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\正面\00003.png
+0+209,0+215,42,41
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\正面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\正面\00004.png
+0+210,0+218,42,35
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\正面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\正面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\正面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\正面\00005.png
+0+209,0+222,42,37
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\正面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\正面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\正面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\正面\00006.png
+0+209,0+217,42,50
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\正面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\正面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\正面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\正面\00007.png
+0+209,0+210,42,66
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\正面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\正面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00000.png
+0+227,0+153,63,138
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00001.png
+0+226,0+158,71,136
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00002.png
+0+225,0+162,80,130
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00003.png
+0+224,0+166,87,125
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00004.png
+0+224,0+170,89,122
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00005.png
+0+224,0+169,86,125
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00006.png
+0+224,0+162,80,130
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00007.png
+0+225,0+155,72,134
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\背侧\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\背面\00000.png
+0+262,0+156,41,143
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\背面\00001.png
+0+262,0+161,41,142
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\背面\00002.png
+0+262,0+163,42,140
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\背面\00003.png
+0+263,0+167,40,136
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\背面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\背面\00004.png
+0+262,0+170,40,134
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\背面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\背面\00004.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\背面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\背面\00005.png
+0+263,0+169,39,137
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\背面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\背面\00005.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\背面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\背面\00006.png
+0+261,0+163,42,140
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\背面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\背面\00006.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\run\背面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\run\背面\00007.png
+0+262,0+158,41,142
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\run\背面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\run\背面\00007.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\45\00000.png
+0+204,0+168,40,129
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\45\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\45\00001.png
+0+204,0+168,39,129
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\45\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\45\00002.png
+0+204,0+168,39,129
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\45\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\45\00003.png
+0+204,0+168,39,129
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\45\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\正侧\00000.png
+0+220,0+156,34,131
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\正侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\正侧\00001.png
+0+220,0+155,34,132
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\正侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\正侧\00002.png
+0+220,0+155,34,132
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\正侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\正侧\00003.png
+0+220,0+155,34,132
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\正侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\正面\00000.png
+0+215,0+177,33,130
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\正面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\正面\00001.png
+0+215,0+176,32,131
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\正面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\正面\00002.png
+0+215,0+176,32,131
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\正面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\正面\00003.png
+0+215,0+176,32,131
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\正面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\背侧\00000.png
+0+253,0+151,13,40
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\背侧\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\背侧\00001.png
+0+252,0+151,14,52
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\背侧\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\背侧\00002.png
+0+253,0+151,13,52
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\背侧\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\背侧\00003.png
+0+253,0+151,13,39
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\背侧\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\背面\00000.png
+0+263,0+158,34,131
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\背面\00000.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\背面\00001.png
+0+263,0+158,34,131
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\背面\00001.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\背面\00002.png
+0+263,0+158,34,131
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\背面\00002.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -trim E:\tmp\0_PC\B70_M_weapon\out\static\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe -format 0%X,0%Y,%w,%h E:\tmp\0_PC\B70_M_weapon\out\static\背面\00003.png
+0+263,0+158,34,131
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -format jpg -background black -alpha remove -quality 80% E:\tmp\0_PC\B70_M_weapon\out\static\背面\00003.png
+C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe -alpha extract -alpha on -format mask.png E:\tmp\0_PC\B70_M_weapon\out\static\背面\00003.png

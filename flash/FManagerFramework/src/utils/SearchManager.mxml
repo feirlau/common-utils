@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manager xmlns="utils.*" xmlns:mx="http://www.adobe.com/2006/mxml">
+    <mx:VBox width="100%" height="100%" textDecoration="normal">
+        <mx:VBox id="conditionBox" width="100%" verticalGap="0" borderStyle="solid" borderThickness="1">
+            <mx:Canvas id="conditionCanvas" width="100%" height="90"/>
+            <mx:HBox id="searchBar" width="100%" horizontalAlign="right">
+                <mx:Button id="searchButton" click="research();" icon="@Embed(source='/conf/imgs/search.png')"  label="{resourceManager.getString('home','search.label')}" height="25" cornerRadius="0"/>
+            </mx:HBox>
+            <mx:HBox width="100%" height="10">
+            </mx:HBox>
+        </mx:VBox>
+        <mx:VBox id="resultBox" borderStyle="solid" borderThickness="1" width="100%" height="100%" verticalGap="0">
+            <mx:Canvas id="infoCanvas" x="0" y="0" width="100%" height="28">
+                <mx:Label id="infoLabel" text="{resourceManager.getString('home','search.listLabel')}" fontWeight="bold" textAlign="left" fontSize="14" left="5" verticalCenter="0"/>
+                <mx:Label id="resultLabel" text="{'('+resourceManager.getString('home','search.totalLabel')+':'+((viewerData&#38;&#38;viewerData.total.toString())?viewerData.total:0)+'__'+resourceManager.getString('home','search.currentLabel')+':'+start+'->'+(start+viewerData.item.length())+')'}" fontWeight="bold" textAlign="left" fontSize="14" left="{infoLabel.width+10}" verticalCenter="0"/>
+                <mx:HBox id="buttonCanvas" right="0" verticalCenter="0">
+                    <mx:LinkButton id="preButton" click="showPrePage();" icon="@Embed(source='/conf/imgs/left.png')" height="25" cornerRadius="0" enabled="{start&#62;=count}" textDecoration="underline"/>
+                    <mx:LinkButton id="nextButton" click="showNextPage();" icon="@Embed(source='/conf/imgs/right.png')" height="25" cornerRadius="0" enabled="{(viewerData&#38;&#38;viewerData.total.toString())?(start+count&#60;viewerData.total):false}" textDecoration="underline"/>
+                </mx:HBox>
+            </mx:Canvas>
+            <mx:DataGrid id="itemList" dataProvider="{viewerData.item}" width="100%" sortableColumns="true" resizableColumns="true" allowMultipleSelection="false" x="0" y="30" height="100%" columns="{columns}"/>
+        </mx:VBox>
+    </mx:VBox>
+    <mx:Script>
+        <![CDATA[
+            import mx.rpc.events.ResultEvent;
+            
+            [Bindable]
+            protected var viewerData:Object = null;
+            [Bindable]
+            protected var count:Number = 20;
+            [Bindable]
+            protected var start:Number = 0;
+            protected var parameters:URLVariables = new URLVariables();
+            
+            protected var search_url:String = "";
+            
+            [Bindable]
+            public var columns:Array = new Array();
+            
+            protected function research():void {
+                start = 0;
+                if(viewerData) viewerData.total = '0' ;
+                parameters.startindex = start;
+                parameters.count = count;
+                enrichParameters();
+                search();
+            }
+            protected function enrichParameters():void {
+                
+            }
+            protected function search():void {
+                parameters.startindex = start;
+                parameters.count = count;
+                HTTPServiceUtil.requestXMLForPost(search_url, parameters, httpResult);
+            }
+            protected function httpResult(event:ResultEvent):void {
+                viewerData = event.result ;
+                trace(event.result);
+            }
+            
+            protected function showPrePage():void {
+                start -= count;
+                search();
+            }
+            protected function showNextPage():void {
+                start += count;
+                search();
+            }
+        ]]>
+    </mx:Script>
+</Manager>

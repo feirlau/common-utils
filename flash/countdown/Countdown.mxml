@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" fontSize="14" fontWeight="bold" layout="absolute" creationComplete="start();" backgroundAlpha="0" width="100%" height="100%" horizontalScrollPolicy="off" verticalScrollPolicy="off" backgroundColor="0">
+    <!-- mx:Canvas width="100%" height="100%" backgroundImage="@Embed(source='schema.jpg')" backgroundSize="100%"/ -->
+    <mx:Label id="timeLabel" color="0xE3E2DA" width="100" text="{startTime}" textAlign="center" horizontalCenter="0" verticalCenter="0" fontFamily="Verdana" fontSize="36" scaleX="3" scaleY="3">
+    </mx:Label>
+    <mx:Zoom id="timeZoom1" duration="100" target="{timeLabel}" zoomHeightFrom="3" zoomHeightTo="0.01" zoomWidthFrom="3" zoomWidthTo="0.01" effectEnd="effectHandler1(event);"/>
+    <mx:Zoom id="timeZoom2" duration="500" target="{timeLabel}" zoomHeightFrom="6" zoomHeightTo="3" zoomWidthFrom="6" zoomWidthTo="3"/>
+    <mx:Script>
+        <![CDATA[
+            import mx.events.EffectEvent;
+            [Bindable]
+            private var startTime:int = 100;
+            private var timer:Timer = new Timer(1000, startTime);
+            private function start():void {
+                timer.addEventListener(TimerEvent.TIMER, timerHandler);
+                timer.start();
+            }
+            private function timerHandler(event:TimerEvent):void {
+                timeZoom1.play();
+            }
+            private function effectHandler1(event:EffectEvent):void {
+                startTime = startTime-1;
+                timeZoom2.play();
+            }
+        ]]>
+    </mx:Script>
+</mx:Application>

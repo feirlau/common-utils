@@ -1,0 +1,56 @@
+CustomFormToolTip {
+    borderStyle: solid;
+    borderThickness: 0;
+    borderColor: #333333;
+    cornerRadius: 4;
+    color: #FFFFFF;
+    backgroundColor: #000000;
+    backgroundAlpha: 0.6;
+    horizontalScrollPolicy: off;
+    verticalScrollPolicy: off;
+}
+.formToolTipForm {
+    paddingLeft: 6;
+    paddingRight: 6;
+    paddingTop: 6;
+    paddingBottom: 6;
+    verticalGap: 0;
+    indicatorGap: 6;
+}
+.formToolTipLabel {
+    textAlign: right;
+    color: #CCFF99;
+    fontWeight: "bold";
+}
+.formToolTipText {
+    color: #FFFFFF;
+}
+
+.messageCanvas {
+    closeIcon: Embed(source="images/controls/close_message.png");
+}
+.messageCanvasContent {
+    borderStyle: "solid";
+    cornerRadius: 8;
+    color: #FFFFFF;
+    fontWeight: "normal";
+    backgroundColor: #000000;
+    backgroundAlpha: 0.6;
+    horizontalScrollPolicy: off;
+    verticalScrollPolicy: off;
+}
+.messageCanvasTime {
+    color: #CCFF99;
+}
+.messageCanvasInfo {
+    color: #FFFFFF;
+    messageIcon: Embed(source="images/controls/message_info.gif");
+}
+.messageCanvasWarn {
+    color: #FFFFFF;
+    messageIcon: Embed(source="images/controls/message_warning.gif");
+}
+.messageCanvasError {
+    color: #FFFFFF;
+    messageIcon: Embed(source="images/controls/message_error.gif");
+}

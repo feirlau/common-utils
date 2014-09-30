@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:TabNavigator creationComplete="initView();" historyManagementEnabled="false"
+	xmlns:mx="http://www.adobe.com/2006/mxml" backgroundColor="#FFFFFF">
+	<mx:Script>
+		<![CDATA[
+			import events.UpdateViewEvent;
+			
+			import mx.controls.Alert;
+			import mx.core.Application;
+			import mx.core.Container;
+			import mx.events.IndexChangedEvent;
+			
+			import utils.ApplicationInfo;
+			
+			private var gShowModel_:int = 0;
+			private var maskModel:int = 0x0001;
+			
+			[Bindable]
+			public function get gShowModel():int {
+				return gShowModel_;
+			}
+			public function set gShowModel(model:int):void {
+				gShowModel_ = model;
+				var i:int = 0;
+				var first:int = -1;
+				var tmpContainer:Container;
+				this.removeAllChildren();
+				for each(var tab:Object in contents) {
+					if((gShowModel_&(maskModel<<i)) > 0) {
+						this.addChild(tab as DisplayObject);
+						if(first==-1) {
+							first = i;
+							tmpContainer = tab as Container;
+						}
+					}
+					i++;
+				}
+				if(tmpContainer) {
+				    this.selectedChild = tmpContainer;
+                    try {
+    				    this.getTabAt(0).selected = true;
+                    } catch(err:Error) {}
+				}
+			    changeTab(null);
+			}
+			
+			private function initView():void {
+				this.addEventListener(IndexChangedEvent.CHANGE, changeTab);
+				gShowModel = gShowModel_;
+			}
+			private function changeTab(event:IndexChangedEvent):void {
+				ApplicationInfo.currentPanel = this.selectedChild;
+				if(ApplicationInfo.currentPanel && ApplicationInfo.currentPanel.initialized) {
+                    ApplicationInfo.currentPanel.dispatchEvent(new UpdateViewEvent(UpdateViewEvent.UPDATE_LIST));
+				}
+			}
+		]]>
+	</mx:Script>
+	
+	<mx:Array id="contents">
+	</mx:Array>
+</mx:TabNavigator>

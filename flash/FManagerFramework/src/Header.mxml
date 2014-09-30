@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:HBox xmlns:mx="http://www.adobe.com/2006/mxml" height="80" backgroundColor="#040404">
+	<mx:Image id="logoImg" width="200" height="80" source="@Embed(source='/conf/imgs/logo.png')" autoLoad="true" scaleContent="true"/>
+	<mx:HBox width="100%" horizontalAlign="right" horizontalGap="2">
+		<mx:LinkButton includeInLayout="{hasLogin}" visible="{hasLogin}" label="{resourceManager.getString('fmf_home','logout')}" height="25" click="logout();" color="#E1E1E1" fontWeight="normal"/>
+		<mx:VRule includeInLayout="{hasLogin}" visible="{hasLogin}" height="25"/>
+		<mx:LinkButton id="homeButton" label="{resourceManager.getString('fmf_home','home')}" height="25" color="#E1E1E1" fontWeight="normal"/>
+		<mx:VRule height="25"/>
+		<mx:LinkButton id="contactButton" label="{resourceManager.getString('fmf_home','contact')}" height="25" color="#E1E1E1" fontWeight="normal"/>
+		<mx:VRule height="25"/>
+		<mx:LinkButton id="helpButton" label="{resourceManager.getString('fmf_home','help')}" height="25" color="#E1E1E1" fontWeight="normal"/>
+		<mx:VRule height="25"/>
+		<mx:ComboBox id="langList" width="100" dataProvider="{languageTypes.language}" change="changeLanguage(event)" color="#E1E1E1" fontWeight="normal">
+		</mx:ComboBox>
+	</mx:HBox>
+	
+	<mx:Script>
+		<![CDATA[
+			import utils.HTTPServiceUtil;
+			import mx.core.Application;
+			import utils.ApplicationInfo;
+			import mx.events.ListEvent;
+			
+			[Bindable]
+			public var hasLogin:Boolean = false;
+			public var logoutHandler:Function = null;
+			public var logoutFailed:Function = null;
+			
+			[Bindable]
+			public var languageTypes:XML = <languages>
+							<language><label>English</label><value>en_US</value><type>en_US</type></language>
+							<language><label>简体</label><value>zh_CN</value><type>zh_CN_1</type></language>
+							<language><label>繁体</label><value>zh_TW</value><type>zh_CN_2</type></language>
+							</languages> ;
+			private function changeLanguage(event:ListEvent):void {
+				resourceManager.localeChain = [langList.selectedItem.value] ;
+				resourceManager.update() ;
+			}
+			
+			public function logout():void {
+				ApplicationInfo.loginInfo.username = "";
+				ApplicationInfo.loginInfo.password = "";
+				ApplicationInfo.loginInfo.login = false;
+				hasLogin = false;
+				Application.application.model = 0;
+				Application.application.contentView.selectedChild = Application.application.loginPanel ;
+				HTTPServiceUtil.requestXMLForPost("/logout/", null, logoutHandler, logoutFailed);
+			}
+			
+			public function setLocale(locale:String):void {
+				langList.selectedItem = languageTypes.language.(type==locale)[0];
+				langList.dispatchEvent(new ListEvent(ListEvent.CHANGE));
+			}
+		]]>
+	</mx:Script>
+</mx:HBox>

@@ -23,6 +23,7 @@
     JSA.JSADataType.ALPHA_PNG = 4;
     JSA.JSADataType.INVERSE_ALPHA_PNG = 5;
     JSA.JSADataType.GRAY_SCALE_PNG = 6;
+    JSA.JSADataType.NORMAL_PNG8 = 7;
     
     /**
      * self.name = name
@@ -173,7 +174,7 @@
                 data1 = zo.asUint8Array();
 
                 type = "image/jpeg";
-                if (data.type == JSA.JSADataType.NORMAL_PNG) {
+                if (data.type == JSA.JSADataType.NORMAL_PNG || data.type == JSA.JSADataType.NORMAL_PNG8) {
                     type = "image/png";
                 }
                 blob = new Blob([data1], {

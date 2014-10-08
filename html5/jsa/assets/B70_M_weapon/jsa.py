@@ -32,3 +32,4 @@ class JSADataType(object):
     ALPHA_PNG = 4
     INVERSE_ALPHA_PNG = 5
     GRAY_SCALE_PNG = 6
+    NORMAL_PNG8 = 7

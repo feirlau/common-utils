@@ -33,7 +33,7 @@ MAIN_DIR = get_main_dir()
 DIR_NAME = os.path.split(MAIN_DIR)[1]
 default_conf_dir = MAIN_DIR
 #默认图片压缩格式
-default_data_type = jsa.JSADataType.ALPHA_PNG
+default_data_type = jsa.JSADataType.NORMAL_PNG8
 default_png_file = "*.png"
 default_jpg_file = "*.jpg"
 default_info_file = "info.json"
@@ -65,6 +65,10 @@ img_mogrify_mask_img_4 = 'mask.png'
 #转换成jpg格式，去除alpha信息
 img_mogrify_jpg_exe = "C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe"
 img_mogrify_jpg_opt = ['-format', 'jpg', '-background', 'black', '-alpha', 'remove', '-quality', '80%']
+
+#转换为png8
+pngquant_exe = os.path.join(MAIN_DIR, "pngnqi.exe")
+pngquant_opt = ['-Q', 'f', '-g', '1', '-f', '-s', '1', '-e', '-nq8.png', '-d']
 
 def toUnicode(s, type = 'gbk'):
     return unicode(s, type)
@@ -127,6 +131,20 @@ def parseFile(f, jsaObj, logF, out):
         if(default_data_type == jsa.JSADataType.NORMAL_PNG):
             #保持原版png格式，不压缩
             data.type = jsa.JSADataType.NORMAL_PNG
+            data.src = toUnicode(name)
+        elif(default_data_type == jsa.JSADataType.NORMAL_PNG8):
+            args = [pngquant_exe] + pngquant_opt + [out, tmpName]
+            logF.write(" ".join(args) + "\n")
+            p = subprocess.Popen(args, cwd=MAIN_DIR, stderr=logF, stdout=logF)
+            p.wait()
+            logF.flush()
+            
+            nq8 = os.path.join(out, base + "-nq8.png")
+            distutils.file_util.copy_file(nq8, tmpName)
+            os.remove(nq8)
+            
+            #png8格式
+            data.type = jsa.JSADataType.NORMAL_PNG8
             data.src = toUnicode(name)
         else:
             args = [img_mogrify_jpg_exe] + img_mogrify_jpg_opt + [tmpName]

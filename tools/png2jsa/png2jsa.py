@@ -109,7 +109,7 @@ def isExclude(f):
             break
     return result
 def isTexture(t):
-    if(default_data_type == jsa.JSADataType.TEXTURE_PNG or default_data_type == jsa.JSADataType.TEXTURE_PNG8 or default_data_type == jsa.JSADataType.TEXTURE_JPG):
+    if(t == jsa.JSADataType.TEXTURE_PNG or t == jsa.JSADataType.TEXTURE_PNG8 or t == jsa.JSADataType.TEXTURE_JPG):
         return True
     return False
     
@@ -249,7 +249,7 @@ def packTexture(jsaObj, default_out_img, offInfo, files, logF):
         col = offInfo[3] + 1
         tileX = offInfo[4]
         tileY = offInfo[5]
-        f = os.path.join(default_img_out, jsaObj.path)
+        f = os.path.join(default_img_out, jsaObj.path.encode("gbk"))
         files.append(f)
         
         jsaObj.data.textureOffset = [offX, offY, jsaObj.data.offset[2], jsaObj.data.offset[3]]
@@ -272,7 +272,7 @@ def packTexture(jsaObj, default_out_img, offInfo, files, logF):
 def getBestTile(n):
     nX = 0
     nY = 0
-    m = math.ceil(n / MAX_IMG_COLUMN)
+    m = int(math.ceil(float(n) / MAX_IMG_COLUMN))
     if(m >= MAX_IMG_COLUMN):
         nX = MAX_IMG_COLUMN
         nY = m
@@ -317,7 +317,9 @@ def start():
                 default_out_img = default_out_img_jpg
             if(os.path.exists(default_out_img)):
                 os.remove(default_out_img)
-            tiles = getBestTile(len(filesInfo["files"]))
+            n = len(filesInfo["files"])
+            jsaObj.info["num"] = n
+            tiles = getBestTile(n)
             montageFiles = []
             packTexture(jsaObj, default_out_img, [0, 0, 0, 0] + tiles, montageFiles, logF)
             args = [img_montage_exe] + montageFiles + img_montage_opt + [str(tiles[0]) + "x" + str(tiles[1]), default_out_img]

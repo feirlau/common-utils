@@ -35,7 +35,7 @@ default_img_file = "*.png"
 default_log_file = os.path.join(MAIN_DIR, DIR_NAME + ".log")
 
 #转换为png8
-pngquant_exe = os.path.join(MAIN_DIR, "pngnqi.exe")
+pngquant_exe = os.path.join(MAIN_DIR, "pngnq.exe")
 pngquant_opt = ['-Q', 'f', '-g', '1', '-f', '-s', '1', '-e', '.png', '-d']
 
 def isExclude(f):

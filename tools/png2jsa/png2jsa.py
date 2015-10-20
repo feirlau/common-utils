@@ -8,7 +8,7 @@ import sys
 import traceback
 reload(sys)
 sys.setdefaultencoding("utf-8")
-import imp, os, codecs, fnmatch, subprocess, shutil, distutils.file_util, zlib, zipfile
+import imp, os, codecs, fnmatch, subprocess, shutil, distutils.file_util, zlib, zipfile, math
 import jsonpickle, json
 import jsa
 
@@ -28,33 +28,45 @@ def get_main_dir():
         tmp_dir = os.path.dirname(__file__)
     return os.path.abspath(tmp_dir)
 
-DEBUG = True
 MAIN_DIR = get_main_dir()
 DIR_NAME = os.path.split(MAIN_DIR)[1]
 default_conf_dir = MAIN_DIR
+
+#####################################
+#配置
+DEBUG = True
+#单行最大图片数
+MAX_IMG_COLUMN = 8
 #默认图片压缩格式
-default_data_type = jsa.JSADataType.NORMAL_PNG8
+default_data_type = jsa.JSADataType.TEXTURE_PNG8
+#工具路径配置
+ImageMagick = "F:/programs/ImageMagick/"
+pngquant = "F:/programs/pngquant/"
+#####################################
+
 default_png_file = "*.png"
 default_jpg_file = "*.jpg"
 default_info_file = "info.json"
 default_img_out = os.path.normpath(os.path.join(MAIN_DIR, "out"))
 default_log_file = os.path.join(MAIN_DIR, DIR_NAME + ".log")
+default_out_img_png = os.path.join(MAIN_DIR, "jsa.png")
+default_out_img_jpg = os.path.join(MAIN_DIR, "jsa.jpg")
 default_out_file = os.path.join(MAIN_DIR, "jsa.json")
 default_out_file_zip = os.path.join(default_img_out, "jsa.json.zip")
 default_jsa_file = os.path.join(MAIN_DIR, DIR_NAME + "_" + str(default_data_type) + ".jsa")
-default_excludes = ["out", ".*"]
+default_excludes = ["out", ".*", "jsa.*"]
 default_password = ""
 
 #剪裁图片
-img_mogrify_exe = "C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe"
+img_mogrify_exe = ImageMagick + "mogrify.exe"
 img_mogrify_opt = ['-trim']
 
 #获取图片剪裁信息
-img_identify_exe = "C:/Program Files/ImageMagick-6.7.5-Q16/identify.exe"
-img_identify_opt = ['-format', '0%X,0%Y,%w,%h']
+img_identify_exe = ImageMagick + "identify.exe"
+img_identify_opt = ['-format', '%X,%Y,%w,%h']
 
 #提取图片透明度信息，生成mask图
-img_mogrify_mask_exe = "C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe"
+img_mogrify_mask_exe = ImageMagick + "mogrify.exe"
 #生成gray-scale-jpg的mask图
 img_mogrify_mask_opt_3 = ['-alpha', 'extract', '-format']
 img_mogrify_mask_img_3 = 'mask.jpg'
@@ -63,12 +75,18 @@ img_mogrify_mask_opt_4 = ['-alpha', 'extract', '-alpha', 'on', '-format']
 img_mogrify_mask_img_4 = 'mask.png'
 
 #转换成jpg格式，去除alpha信息
-img_mogrify_jpg_exe = "C:/Program Files/ImageMagick-6.7.5-Q16/mogrify.exe"
+img_mogrify_jpg_exe = ImageMagick + "mogrify.exe"
 img_mogrify_jpg_opt = ['-format', 'jpg', '-background', 'black', '-alpha', 'remove', '-quality', '80%']
 
-#转换为png8
-pngquant_exe = os.path.join(MAIN_DIR, "pngnqi.exe")
-pngquant_opt = ['-Q', 'f', '-g', '1', '-f', '-s', '1', '-e', '-nq8.png', '-d']
+#将小图合成为大图
+img_montage_exe = ImageMagick + "montage.exe"
+img_montage_opt = ['-mode', 'Concatenate', '-background', 'none', '-tile']
+
+#png压缩，转换为png8
+img_png8_exe = pngquant + "pngquant.exe"
+img_png8_opt = ['-f', '--speed', '1', '--ext', '.png']
+img_pngout_exe = pngquant + "pngout.exe"
+img_pngout_opt = ['-ks', '-f6']
 
 def toUnicode(s, type = 'gbk'):
     return unicode(s, type)
@@ -90,8 +108,12 @@ def isExclude(f):
         if(result):
             break
     return result
+def isTexture(t):
+    if(default_data_type == jsa.JSADataType.TEXTURE_PNG or default_data_type == jsa.JSADataType.TEXTURE_PNG8 or default_data_type == jsa.JSADataType.TEXTURE_JPG):
+        return True
+    return False
     
-def parseFile(f, jsaObj, logF, out):
+def parseFile(f, jsaObj, logF, out, filesInfo):
     if(None == jsaObj):
         jsaObj = jsa.JSAPack()
     name = os.path.split(f)[1]
@@ -105,6 +127,7 @@ def parseFile(f, jsaObj, logF, out):
     if(fnmatch.fnmatch(f, default_png_file)):
         tmpName = os.path.join(out, name)
         distutils.file_util.copy_file(f, tmpName)
+        filesInfo["files"].append(tmpName)
         
         args = [img_mogrify_exe] + img_mogrify_opt + [tmpName]
         logF.write(" ".join(args) + "\n")
@@ -128,23 +151,27 @@ def parseFile(f, jsaObj, logF, out):
         offsetA[2] = eval(offsetA[2])
         offsetA[3] = eval(offsetA[3])
         
-        if(default_data_type == jsa.JSADataType.NORMAL_PNG):
+        data.type = default_data_type
+        if(default_data_type == jsa.JSADataType.NORMAL_PNG or default_data_type == jsa.JSADataType.TEXTURE_PNG or default_data_type == jsa.JSADataType.TEXTURE_PNG8):
             #保持原版png格式，不压缩
             data.type = jsa.JSADataType.NORMAL_PNG
             data.src = toUnicode(name)
         elif(default_data_type == jsa.JSADataType.NORMAL_PNG8):
-            args = [pngquant_exe] + pngquant_opt + [out, tmpName]
+            #png8压缩
+            args = [img_png8_exe] + img_png8_opt + [tmpName]
             logF.write(" ".join(args) + "\n")
-            p = subprocess.Popen(args, cwd=MAIN_DIR, stderr=logF, stdout=logF)
+            logF.flush()
+            p = subprocess.Popen(args, cwd=MAIN_DIR, stderr=logF, stdout=subprocess.PIPE)
             p.wait()
             logF.flush()
             
-            nq8 = os.path.join(out, base + "-nq8.png")
-            distutils.file_util.copy_file(nq8, tmpName)
-            os.remove(nq8)
+            args = [img_pngout_exe] + img_pngout_opt + [tmpName]
+            logF.write(" ".join(args) + "\n")
+            logF.flush()
+            p = subprocess.Popen(args, cwd=MAIN_DIR, stderr=logF, stdout=subprocess.PIPE)
+            p.wait()
+            logF.flush()
             
-            #png8格式
-            data.type = jsa.JSADataType.NORMAL_PNG8
             data.src = toUnicode(name)
         else:
             args = [img_mogrify_jpg_exe] + img_mogrify_jpg_opt + [tmpName]
@@ -156,12 +183,9 @@ def parseFile(f, jsaObj, logF, out):
             
             img_mogrify_mask_opt = img_mogrify_mask_opt_3
             img_mogrify_mask_img = img_mogrify_mask_img_3
-            data.type = jsa.JSADataType.GRAY_SCALE_JPG
             if(default_data_type == jsa.JSADataType.GRAY_SCALE_PNG):
-                data.type = jsa.JSADataType.GRAY_SCALE_PNG
                 img_mogrify_mask_img = img_mogrify_mask_img_4
             if(default_data_type == jsa.JSADataType.ALPHA_PNG):
-                data.type = jsa.JSADataType.ALPHA_PNG
                 img_mogrify_mask_opt = img_mogrify_mask_opt_4
                 img_mogrify_mask_img = img_mogrify_mask_img_4
                 
@@ -183,12 +207,13 @@ def parseFile(f, jsaObj, logF, out):
         distutils.file_util.copy_file(f, tmpName)
         data.src = toUnicode(name)
         data.type = jsa.JSADataType.NORMAL_JPG
+        filesInfo["files"].append(tmpName)
     else:
         jsaObj = None
     
     return jsaObj
     
-def parseDir(d, jsaObj, logF, out):
+def parseDir(d, jsaObj, logF, out, filesInfo):
     if(None == jsaObj):
         jsaObj = jsa.JSAPack()
     name = os.path.split(d)[1]
@@ -206,16 +231,71 @@ def parseDir(d, jsaObj, logF, out):
             d_abs = os.path.join(out, f);
             if(not os.path.exists(d_abs)):
                 os.makedirs(d_abs)
-            items.append(parseDir(f_abs, None, logF, d_abs))
+            items.append(parseDir(f_abs, None, logF, d_abs, filesInfo))
         elif(f == default_info_file):
             fH = open(f_abs, "r")
             jsaObj.info = jsonpickle.decode(fH.read())
         else:
-            tmpJsa = parseFile(f_abs, None, logF, out)
+            tmpJsa = parseFile(f_abs, None, logF, out, filesInfo)
             if(tmpJsa):
                 items.append(tmpJsa)
     return jsaObj
-
+    
+def packTexture(jsaObj, default_out_img, offInfo, files, logF):
+    if(jsaObj.type == jsa.JSAType.FILE and jsaObj.data):
+        offX = offInfo[0]
+        offY = offInfo[1]
+        maxH = offInfo[2]
+        col = offInfo[3] + 1
+        tileX = offInfo[4]
+        tileY = offInfo[5]
+        f = os.path.join(default_img_out, jsaObj.path)
+        files.append(f)
+        
+        jsaObj.data.textureOffset = [offX, offY, jsaObj.data.offset[2], jsaObj.data.offset[3]]
+        if(jsaObj.data.offset[3] > maxH):
+            maxH = jsaObj.data.offset[3]
+        if(col == tileX):
+            offX = 0
+            offY += maxH
+            maxH = 0
+        else:
+            offX += jsaObj.data.offset[2]
+        offInfo[0] = offX
+        offInfo[1] = offY
+        offInfo[2] = maxH
+        offInfo[3] = col
+    if(jsaObj.items):
+        for item in jsaObj.items:
+            packTexture(item, default_out_img, offInfo, files, logF)
+        
+def getBestTile(n):
+    nX = 0
+    nY = 0
+    m = math.ceil(n / MAX_IMG_COLUMN)
+    if(m >= MAX_IMG_COLUMN):
+        nX = MAX_IMG_COLUMN
+        nY = m
+        return [nX, nY]
+    m = 0
+    for i in range(MAX_IMG_COLUMN):
+        i = i + 1
+        for j in range(i):
+            j = j + 1
+            k = i * j
+            if(k == n):
+                m = k
+                nX = i
+                nY = j
+                break
+            if(k > n and (m == 0 or k < m)):
+                m = k
+                nX = i
+                nY = j
+        if(m == n):
+            break
+    return [nX, nY]
+    
 def start():
     try:
         if(os.path.exists(default_img_out)):
@@ -224,35 +304,71 @@ def start():
         
         logF = open(default_log_file, "w+")
         
-        jsaObj = parseDir(default_conf_dir, None, logF, default_img_out)
-        
-        outF = open(default_out_file, "w")
-        s = jsonpickle.encode(jsaObj)
-        if(DEBUG):
-            jsaObj = json.loads(s)
-            s = json.dumps(jsaObj, indent=4)
-        outF.write(s)
-        outF.flush()
-        outF.close()
-        
-        outF = open(default_out_file_zip, "wb")
-        outF.write(zlib.compress(s))
-        outF.flush()
-        outF.close()
-        
-        logF.flush()
-        logF.close()
-        
-        zf = zipfile.ZipFile(default_jsa_file, "w", zipfile.ZIP_STORED)
-        if(default_password):
-            zf.setpassword(default_password)
-        for dirpath, dirnames, filenames in os.walk(default_img_out, True):
-            fs = dirnames + filenames
-            for f in fs:
-                f = os.path.join(dirpath, f)
-                af = toAbs(f)
-                zf.write(f, af)
-        zf.close()
+        filesInfo = {}
+        filesInfo["files"] = []
+        jsaObj = parseDir(default_conf_dir, None, logF, default_img_out, filesInfo)
+        if(None == jsaObj.info):
+            jsaObj.info = {}
+        jsaObj.info["type"] = default_data_type
+        #合并成单张图片格式
+        if(isTexture(default_data_type)):
+            default_out_img = default_out_img_png
+            if(default_data_type == jsa.JSADataType.TEXTURE_JPG):
+                default_out_img = default_out_img_jpg
+            if(os.path.exists(default_out_img)):
+                os.remove(default_out_img)
+            tiles = getBestTile(len(filesInfo["files"]))
+            montageFiles = []
+            packTexture(jsaObj, default_out_img, [0, 0, 0, 0] + tiles, montageFiles, logF)
+            args = [img_montage_exe] + montageFiles + img_montage_opt + [str(tiles[0]) + "x" + str(tiles[1]), default_out_img]
+            logF.write(" ".join(args) + "\n")
+            logF.flush()
+            p = subprocess.Popen(args, cwd=MAIN_DIR, stderr=logF, stdout=logF)
+            p.wait()
+            logF.flush()
+            #png8压缩
+            if(default_data_type == jsa.JSADataType.TEXTURE_PNG8):
+                args = [img_png8_exe] + img_png8_opt + [default_out_img]
+                logF.write(" ".join(args) + "\n")
+                logF.flush()
+                p = subprocess.Popen(args, cwd=MAIN_DIR, stderr=logF, stdout=subprocess.PIPE)
+                p.wait()
+                logF.flush()
+            outF = open(default_out_file, "w")
+            s = jsonpickle.encode(jsaObj)
+            if(DEBUG):
+                jsaObj = json.loads(s)
+                s = json.dumps(jsaObj, indent=4)
+            outF.write(s)
+            outF.flush()
+            outF.close()
+        else:
+            outF = open(default_out_file, "w")
+            s = jsonpickle.encode(jsaObj)
+            if(DEBUG):
+                jsaObj = json.loads(s)
+                s = json.dumps(jsaObj, indent=4)
+            outF.write(s)
+            outF.flush()
+            outF.close()
+            outF = open(default_out_file_zip, "wb")
+            outF.write(zlib.compress(s))
+            outF.flush()
+            outF.close()
+            
+            logF.flush()
+            logF.close()
+            
+            zf = zipfile.ZipFile(default_jsa_file, "w", zipfile.ZIP_STORED)
+            if(default_password):
+                zf.setpassword(default_password)
+            for dirpath, dirnames, filenames in os.walk(default_img_out, True):
+                fs = dirnames + filenames
+                for f in fs:
+                    f = os.path.join(dirpath, f)
+                    af = toAbs(f)
+                    zf.write(f, af)
+            zf.close()
     except:
         type_, value_, traceback_ = sys.exc_info()
         print traceback.format_exception(type_, value_, traceback_)

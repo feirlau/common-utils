@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<movie version="10" width="512" height="512" framerate="12" as3="1">
+<movie version="9" width="512" height="512" framerate="12" as3="1">
 ${clips}
 ${frames}
 </movie>

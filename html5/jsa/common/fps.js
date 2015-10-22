@@ -1,12 +1,9 @@
-/* global devel: true */
+/* global devel: true, console: true */
 (function () {
     'use strict';
     if (typeof FPS !== 'undefined') {
         return;
     }
-    var root = this,
-        FPS = function () {
-        };
     
     // http://paulirish.com/2011/requestanimationframe-for-smart-animating/
     // http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
@@ -49,6 +46,10 @@
         };
 
     window.requestAnimFrame = window.requestAnimationFrame;
+
+    var root = this,
+        FPS = function () {
+        };
     
     FPS.HandlerInfo = function (handler, interval) {
         this.handler = handler; //回调handler(this.timeInfo)

@@ -1,4 +1,4 @@
-/* global devel: true */
+/* global devel: true, console: true */
 (function () {
     'use strict';
     if (typeof JSA !== 'undefined') {
@@ -6,9 +6,10 @@
     }
 
     var root = this,
-        JSA = function (jsaObj, zip) {
+        JSA = function (jsaObj, zip, textureHandler) {
             this.pack = JSA.fromJson(jsaObj, this);
-            this.zip = zip;
+            this.zip = zip; //zip file or texture packer
+            this.textureHandler = textureHandler;
         };
     JSA.JSAType = {};
     JSA.JSAType.PACK = 1;
@@ -24,6 +25,17 @@
     JSA.JSADataType.INVERSE_ALPHA_PNG = 5;
     JSA.JSADataType.GRAY_SCALE_PNG = 6;
     JSA.JSADataType.NORMAL_PNG8 = 7;
+    JSA.JSADataType.TEXTURE_PNG = 9;
+    JSA.JSADataType.TEXTURE_PNG8 = 10;
+    JSA.JSADataType.TEXTURE_JPG = 11;
+    
+    JSA.textureHandler = function() {};
+    JSA.isTexture = function (t) {
+        if(t == JSA.JSADataType.TEXTURE_PNG || t == JSA.JSADataType.TEXTURE_PNG8 || t == JSA.JSADataType.TEXTURE_JPG) {
+            return true;
+        }
+        return false;
+    };
     
     /**
      * self.name = name
@@ -51,8 +63,8 @@
         }
         return data;
     };
-    
     /**
+    "type": 10,
     "fps": 12,
     "bbox": [512, 512]
      */
@@ -69,6 +81,7 @@
     self.src = src
     self.mask = mask
     self.offset = offset
+    self.textureOffset = textureOffset
      */
     JSA.JSAData = function () {
         this.init();
@@ -80,22 +93,23 @@
         
         JSA.EventTarget.call(this);
         
+        this.texture = null;
         this.pack = null;
         this.img = new Image();
         this.imgSrc = null;
         this.imgMask = null;
     };
-    JSA.JSAData.prototype.onloadHandler = function (force) {
+    JSA.JSAData.prototype.onloadHandler = function (e, force) {
         if (this.imgSrc && (this.imgSrc.complete || force) && this.imgMask && (this.imgMask.complete || force)) {
             this.img.src = JSA.getMaskImg(this.imgSrc, this.imgMask, this.type, this.offset);
             
             this.oncomplet();
         }
     };
-    JSA.JSAData.prototype.onerrorHandler = function () {
+    JSA.JSAData.prototype.onerrorHandler = function (e) {
         this.oncomplet();
     };
-    JSA.JSAData.prototype.onabortHandler = function () {
+    JSA.JSAData.prototype.onabortHandler = function (e) {
         this.oncomplet();
     };
     JSA.JSAData.prototype.oncomplet = function () {
@@ -121,7 +135,11 @@
     JSA.JSAData.prototype.loadImage = function () {
         var data = this, item = data.pack, jsa = item.jsa,
             type, s, data1, data2, arr, zo, blob;
-        if (!data.img.src) {
+        if(JSA.isTexture(data.type)) {
+            var func = jsa.textureHandler || JSA.textureHandler;
+            return func.call(jsa, data);
+        } else if (!data.img.src) {
+            this.img.name = item.path;
             arr = item.path.split(JSA.JSAType.SEP_PATH);
             if (data.mask) {
                 if (!data.loading) {
@@ -168,13 +186,13 @@
                     data.imgMask.src = (window.URL || window.webkitURL).createObjectURL(blob);
                     data.onloadHandler();
                 }
-            } else {
+            } else if(data.src) {
                 arr[arr.length - 1] = data.src;
                 zo = jsa.zip.file(arr.join(JSA.JSAType.SEP_PATH));
                 data1 = zo.asUint8Array();
 
                 type = "image/jpeg";
-                if (data.type == JSA.JSADataType.NORMAL_PNG || data.type == JSA.JSADataType.NORMAL_PNG8) {
+                if (data.type == JSA.JSADataType.NORMAL_PNG) {
                     type = "image/png";
                 }
                 blob = new Blob([data1], {
@@ -360,92 +378,6 @@
                 listeners[type].splice(index, 1);
             }
         };
-    };
-    
-    /**
-     * base on pixijs: http://www.pixijs.com
-     */
-    JSA.JSAAnimation = function (pack) {
-        var i, item, texture, textures = [];
-        
-        this.timeInfo = new FPS.TimeInfo(0, 0, 0);
-        if (pack && pack.items) {
-            for (i = 0; i < pack.items.length; i += 1) {
-                item = pack.items[i];
-                if (item.data && item.type == JSA.JSAType.FILE) {
-                    texture = new PIXI.BaseTexture(item.data.loadImage());
-                    texture = new PIXI.Texture(texture);
-                    if (item.data.offset) {
-                        texture.trim = new PIXI.Rectangle(item.data.offset[0], item.data.offset[1], item.data.offset[2], item.data.offset[3]);
-                    }
-                    textures.push(texture);
-                }
-            }
-            if (pack.info && pack.info.fps) {
-                this.timeInfo.interval = 1000 / pack.info.fps;
-            }
-        }
-        
-        if (textures.length == 0) {
-            texture = new PIXI.BaseTexture(new Image());
-            texture = new PIXI.Texture(texture);
-            textures.push(texture);
-        }
-        PIXI.MovieClip.call(this, textures);
-    };
-    // constructor
-    JSA.JSAAnimation.prototype = Object.create( PIXI.MovieClip.prototype );
-    JSA.JSAAnimation.prototype.constructor = JSA.JSAAnimation;
-    JSA.JSAAnimation.prototype.updateTransform = function () {
-        if (this.playing) {
-            this.timeInfo.time = FPS.timeInfo.time;
-            if (this.timeInfo.interval && this.timeInfo.preTime && this.timeInfo.getIntervalCount() < 1) {
-                return;
-            }
-        }
-        PIXI.MovieClip.prototype.updateTransform.call(this);
-        this.timeInfo.preTime = this.timeInfo.time;
-    };
-    
-    JSA.JSAContainer = function() {
-        PIXI.DisplayObjectContainer.call(this);
-        
-        this.animations = [];
-    };
-    // constructor
-    JSA.JSAContainer.prototype = Object.create( PIXI.DisplayObjectContainer.prototype );
-    JSA.JSAContainer.prototype.constructor = JSA.JSAContainer;
-    JSA.JSAContainer.prototype.addAnimation = function (animation, sync) {
-        var i = this.animations.indexOf(animation);
-        if (i < 0) {
-            if (sync && this.animations.length > 0) {
-                animation.currentFrame = this.animations[0].currentFrame;
-            }
-            this.addChild(animation);
-            this.animations.push(animation);
-        }
-        return animation;
-    };
-    JSA.JSAContainer.prototype.removeAnimation = function (animation, dataOnly) {
-        var i = this.animations.indexOf(animation);
-        if (i >= 0) {
-            if (!dataOnly) this.removeChild(animation);
-            this.animations.splice(i, 1);
-        }
-        return animation;
-    };
-    JSA.JSAContainer.prototype.removeAnimations = function () {
-        var i = this.animations.length - 1;
-        for (i; i >= 0; i -= 1) {
-            this.removeAnimation(this.animations[i]);
-        }
-    };
-    JSA.JSAContainer.prototype.removeChildren = function (beginI, endI) {
-        var i, removed = PIXI.DisplayObjectContainer.prototype.removeChildren.call(this, beginI, endI);
-        for (i = 0; i < removed.length; i += 1) {
-            this.removeAnimation(removed[i], true);
-        }
-        return removed;
     };
     
     if (typeof exports !== 'undefined') {

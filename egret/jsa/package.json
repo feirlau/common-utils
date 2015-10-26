@@ -1,0 +1,24 @@
+{
+	"name": "egret",
+	"version": "2.5.2",
+	"modules": [
+		{
+			"name": "jsa",
+			"description": "jsa",
+			"files": ["jsa.js", "jsa.d.ts"],
+			"root": "src"
+		},
+        {
+			"name": "fps",
+			"description": "fps",
+			"files": ["fps.js", "fps.d.ts"],
+			"root": "src"
+		},
+        {
+			"name": "jsaanimation_egret",
+			"description": "jsaanimation_egret",
+			"files": ["jsaanimation_egret.js", "jsaanimation_egret.d.ts"],
+			"root": "src"
+		}
+	]
+}

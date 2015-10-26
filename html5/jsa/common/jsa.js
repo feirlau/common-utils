@@ -6,11 +6,14 @@
     }
 
     var root = this,
-        JSA = function (jsaObj, zip, textureHandler) {
-            this.pack = JSA.fromJson(jsaObj, this);
-            this.zip = zip; //zip file or texture packer
-            this.textureHandler = textureHandler;
-        };
+        JSA = function() {};
+        
+    JSA.JSA = function (jsaObj, zip, textureHandler) {
+        this.pack = JSA.fromJson(jsaObj, this);
+        this.zip = zip; //zip file or texture packer
+        this.textureHandler = textureHandler;
+    };
+    
     JSA.JSAType = {};
     JSA.JSAType.PACK = 1;
     JSA.JSAType.FOLDER = 2;
@@ -204,7 +207,7 @@
         return data.img;
     };
 
-    JSA.prototype.getPackItem = function (path) {
+    JSA.JSA.prototype.getPackItem = function (path) {
         var arr, i, j, pack = this.pack,
             item = pack;
         arr = path.split(JSA.JSAType.SEP_PATH);
@@ -228,10 +231,10 @@
         }
         return item;
     };
-    JSA.prototype.getPackData = function (item) {
+    JSA.JSA.prototype.getPackData = function (item) {
         return item.getData();
     };
-    JSA.prototype.getPackItemData = function (path, handler) {
+    JSA.JSA.prototype.getPackItemData = function (path, handler) {
         var data, item = this.getPackItem(path),
             f = function (event) {
                 if (typeof (handler) === "function") {

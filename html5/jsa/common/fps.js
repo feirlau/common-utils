@@ -143,7 +143,7 @@
         var i, hInfo;
         for (i = FPS.handlers.length - 1; i >= 0; i -= 1) {
             hInfo = handlers[i];
-            if (hInfo == handler) {
+            if (hInfo && hInfo.handler == handler) {
                 return hInfo;
             }
         }

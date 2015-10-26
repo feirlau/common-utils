@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>jszip example 1</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+    </style>
+    <script src="common/pako.js"></script>
+    <script src="common/jszip.js"></script>
+</head>
+
+<body>
+    <script>
+        function readfile(f) {
+            var reader = new FileReader(); // Create a FileReader object
+            reader.onload = function () { // Define an event handler
+                editor.innerHTML = pako.inflate(reader.result, {to: "string"});
+            }
+            reader.onerror = function (e) { // If anything goes wrong
+                console.log("Error", e); // Just log it
+            };
+            reader.readAsBinaryString(f); // Read the file
+        }
+    </script>
+    <input type="file" onchange="readfile(this.files[0])"></input>
+    <div id="editor" contenteditable="true"></div>
+</body>
+
+</html>

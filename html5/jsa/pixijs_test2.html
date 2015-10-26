@@ -47,7 +47,7 @@
         var loader = PIXI.loader;
         function changeModel(name) {
             var path = document.getElementById(name).value;
-            var jsa = new JSA();
+            var jsa = new JSA.JSA();
             jsa.zip = PIXI.BaseTexture.fromImage(path + ".png");
             jsas[name] = jsa;
             loader.add(name, path + ".json");
@@ -93,11 +93,11 @@
         }
     </script>
     <div>
-        <input id="role" type="text" value="" width="300"/>
+        <input id="role" type="text" value="https://raw.githubusercontent.com/feirlau/common-utils/master/html5/jsa/assets/B70_M_role/jsa" width="300"/>
         <input type="button" value="ok" onclick="changeModel('role');"/>
     </div>
     <div>
-        <input id="weapon" type="text" value="" width="300"/>
+        <input id="weapon" type="text" value="https://raw.githubusercontent.com/feirlau/common-utils/master/html5/jsa/assets/B70_M_weapon/jsa" width="300"/>
         <input type="button" value="ok" onclick="changeModel('weapon');"/>
     </div>
     <div>

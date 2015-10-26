@@ -135,7 +135,7 @@
         }
     };
     JSA.JSAContainer.prototype.removeChildren = function () {
-        removeAnimations(true)
+        this.removeAnimations(true)
         egret.DisplayObjectContainer.prototype.removeChildren.call(this);
     };
 }).call(this);

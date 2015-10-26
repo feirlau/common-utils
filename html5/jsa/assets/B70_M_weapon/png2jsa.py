@@ -122,6 +122,7 @@ def parseFile(f, jsaObj, logF, out, filesInfo):
     jsaObj.path = toAbs(os.path.join(out, name))
     jsaObj.type = jsa.JSAType.FILE
     data = jsa.JSAData()
+    data.type = default_data_type
     jsaObj.data = data
     
     if(fnmatch.fnmatch(f, default_png_file)):
@@ -151,12 +152,10 @@ def parseFile(f, jsaObj, logF, out, filesInfo):
         offsetA[2] = eval(offsetA[2])
         offsetA[3] = eval(offsetA[3])
         
-        data.type = default_data_type
-        if(default_data_type == jsa.JSADataType.NORMAL_PNG or default_data_type == jsa.JSADataType.TEXTURE_PNG or default_data_type == jsa.JSADataType.TEXTURE_PNG8):
+        if(data.type == jsa.JSADataType.NORMAL_PNG or data.type == jsa.JSADataType.TEXTURE_PNG or data.type == jsa.JSADataType.TEXTURE_PNG8):
             #保持原版png格式，不压缩
-            data.type = jsa.JSADataType.NORMAL_PNG
             data.src = toUnicode(name)
-        elif(default_data_type == jsa.JSADataType.NORMAL_PNG8):
+        elif(data.type == jsa.JSADataType.NORMAL_PNG8):
             #png8压缩
             args = [img_png8_exe] + img_png8_opt + [tmpName]
             logF.write(" ".join(args) + "\n")
@@ -206,7 +205,6 @@ def parseFile(f, jsaObj, logF, out, filesInfo):
         tmpName = os.path.join(out, name)
         distutils.file_util.copy_file(f, tmpName)
         data.src = toUnicode(name)
-        data.type = jsa.JSADataType.NORMAL_JPG
         filesInfo["files"].append(tmpName)
     else:
         jsaObj = None
@@ -259,6 +257,7 @@ def packTexture(jsaObj, default_out_img, offInfo, files, logF):
             offX = 0
             offY += maxH
             maxH = 0
+            col = 0
         else:
             offX += jsaObj.data.offset[2]
         offInfo[0] = offX

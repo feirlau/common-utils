@@ -25,6 +25,17 @@
 			"name": "roleJson",
 			"type": "json",
 			"url": "model/role/jsa.json"
+		},
+
+		{
+		  "name": "weaponPng",
+		  "type": "image",
+		  "url": "model/weapon/jsa.png"
+		},
+		{
+		  "name": "weaponJson",
+		  "type": "json",
+		  "url": "model/weapon/jsa.json"
 		}
 	],
 	"groups": [
@@ -35,6 +46,10 @@
         {
 			"name": "role",
 			"keys": "rolePng,roleJson"
+		},
+		{
+		  "name": "weapon",
+		  "keys": "weaponPng,weaponJson"
 		}
 	]
 }

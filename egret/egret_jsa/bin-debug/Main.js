@@ -30,6 +30,7 @@ var Main = (function (_super) {
     __extends(Main, _super);
     function Main() {
         _super.call(this);
+        this.jsas = {};
         this.addEventListener(egret.Event.ADDED_TO_STAGE, this.onAddToStage, this);
     }
     var d = __define,c=Main;p=c.prototype;
@@ -55,7 +56,30 @@ var Main = (function (_super) {
         RES.addEventListener(RES.ResourceEvent.GROUP_LOAD_ERROR, this.onResourceLoadError, this);
         RES.addEventListener(RES.ResourceEvent.GROUP_PROGRESS, this.onResourceProgress, this);
         //RES.loadGroup("preload");
+        var stageW = this.stage.stageWidth;
+        var stageH = this.stage.stageHeight;
+        var colorLabel = new egret.TextField();
+        colorLabel.textColor = 0x0;
+        colorLabel.textAlign = "center";
+        colorLabel.text = "Hello Egret";
+        colorLabel.size = 20;
+        colorLabel.x = stageW - colorLabel.width >> 1;
+        colorLabel.y = (stageH - colorLabel.height >> 1) + 50;
+        this.addChild(colorLabel);
+        var textfield = new egret.TextField();
+        this.addChild(textfield);
+        textfield.textColor = 0x0;
+        textfield.width = stageW;
+        textfield.textAlign = egret.HorizontalAlign.CENTER;
+        textfield.x = 0;
+        textfield.y = colorLabel.y + 50;
+        this.textfield = textfield;
+        this.jsaContainer = new JSA.JSAContainer();
+        this.addChild(this.jsaContainer);
+        this.stage.addEventListener(egret.TouchEvent.TOUCH_TAP, this.tapHandler, this);
+
         RES.loadGroup("role");
+        RES.loadGroup("weapon");
     };
     /**
      * preload资源组加载完成
@@ -68,6 +92,9 @@ var Main = (function (_super) {
         }
         else if (event.groupName == "role") {
             this.createRole();
+        }
+        else if (event.groupName == "weapon") {
+            this.createWeapon();
         }
     };
     /**
@@ -90,22 +117,44 @@ var Main = (function (_super) {
             this.loadingView.setProgress(event.itemsLoaded, event.itemsTotal);
         }
     };
+    p.tapHandler = function (e) {
+        var jsa;
+        for (var name in this.jsas) {
+            jsa = this.jsas[name];
+            break;
+        }
+        if (jsa) {
+            var pack = jsa.pack;
+            var i = Math.round(Math.random() * (pack.items.length - 1));
+            pack = pack.items[i];
+            i = Math.round(Math.random() * (pack.items.length - 1));
+            pack = pack.items[i];
+            this.updateAction(pack.path);
+        }
+    };
+    p.updateAction = function (act, force) {
+        if (!act)
+            act = "run/45";
+        if (this.action == act && !force)
+            return;
+        this.action = act;
+        this.textfield.text = this.action;
+        this.jsaContainer.removeChildren();
+        for (var name in this.jsas) {
+            var jsa = this.jsas[name];
+            var jsaAnimation = new JSA.JSAAnimation(jsa.getPackItem(this.action));
+            this.jsaContainer.addAnimation(jsaAnimation, true);
+        }
+    };
     p.createRole = function () {
         var jsa = new JSA.JSA(RES.getRes("roleJson"), new egret.SpriteSheet(RES.getRes("rolePng")));
-        var jsaContainer = new JSA.JSAContainer();
-        var jsaAnimation = new JSA.JSAAnimation(jsa.getPackItem("run/45"));
-        jsaContainer.addAnimation(jsaAnimation, true);
-        this.addChild(jsaContainer);
-        var stageW = this.stage.stageWidth;
-        var stageH = this.stage.stageHeight;
-        var colorLabel = new egret.TextField();
-        colorLabel.textColor = 0x0;
-        colorLabel.textAlign = "center";
-        colorLabel.text = "Hello Egret";
-        colorLabel.size = 20;
-        colorLabel.x = stageW - colorLabel.width >> 1;
-        colorLabel.y = (stageH - colorLabel.height >> 1) + 50;
-        this.addChild(colorLabel);
+        this.jsas["role"] = jsa;
+        this.updateAction(this.action, true);
+    };
+    p.createWeapon = function () {
+        var jsa = new JSA.JSA(RES.getRes("weaponJson"), new egret.SpriteSheet(RES.getRes("weaponPng")));
+        this.jsas["weapon"] = jsa;
+        this.updateAction(this.action, true);
     };
     /**
      * 创建游戏场景
